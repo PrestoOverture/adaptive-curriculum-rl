@@ -97,11 +97,12 @@ uv run scripts/self_improve/r6_offline_replay.py --phase g2 \
 cmp /tmp/r6_g2/g2_metrics.json artifacts/self_improve/r6/replay_real/g2/final14/g2_metrics.json && echo "G2 reproduced"
 ```
 
-Adapter checks run on CPU only: `uv run scripts/self_improve/r5_load_adapter.py --check-only`. The report verifier is
+The report verifier is
 `uv run scripts/self_improve/r5_verify_report.py`. LoRA weights are not in Git. The six R4r U80 adapters are published on
 [Hugging Face](https://huggingface.co/PrestoOverture/octorl-qwen3-4b-grpo-lora), byte-identical to the manifest (see
 `artifacts/self_improve/hf_release/RELEASE.md`). All 20 adapters are indexed with
-sha256 values in `artifacts/self_improve/r5/checkpoint_manifest.json`.
+sha256 values in `artifacts/self_improve/r5/checkpoint_manifest.json`. Local weight files were removed after the release;
+`artifacts/self_improve/pruned_model_files.json` records each removed file's sha256 and where it is archived.
 
 ## Where things are
 

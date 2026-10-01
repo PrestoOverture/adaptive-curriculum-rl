@@ -63,7 +63,14 @@ def test_archive_manifest_and_seeded_sample():
     for row in manifest['files']:assert row['local_sha256']==row['remote_sha256']
     for scope,count in manifest['remote_find_counts'].items():
         assert sum(r['path'].startswith(scope+'/') for r in manifest['files'])==count
-    for row in random.Random(20260928).sample(manifest['files'],50):
+    # Model weights, optimizer states and upstream-identical tokenizer files were removed on 2026-10-01; each one
+    # must be in the pruned record with its manifest hash. The seeded sample checks the files that remain.
+    prefix='artifacts/self_improve/r4/checkpoint_archive/'
+    pruned={r['path'][len(prefix):]:r['sha256'] for r in json.loads((WS/'artifacts/self_improve/pruned_model_files.json').read_text())['files'] if r['path'].startswith(prefix)}
+    by_path={row['path']:row['remote_sha256'] for row in manifest['files']}
+    assert all(by_path[p]==h and not (WS/prefix/p).exists() for p,h in pruned.items())
+    kept=[row for row in manifest['files'] if row['path'] not in pruned]
+    for row in random.Random(20260928).sample(kept,50):
         assert sha256(WS/'artifacts/self_improve/r4/checkpoint_archive'/row['path'])==row['remote_sha256']
     assert (ART/'deletion_list.txt').read_text().splitlines()==['/root/autodl-tmp/octorl_r4/'+s for s in ('seed_42','seed_137','seed_2718','validation')]
 

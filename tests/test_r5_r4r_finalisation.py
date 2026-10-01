@@ -203,11 +203,24 @@ def test_no_r4_sources_in_verdict_sections():
     assert 'no_evidence_of_difference' not in sec[2] + sec[3]
 
 
+R5_FINAL = '0018c05'
+# 2026-10-01: the seeded archive sample now skips weights removed after the HF release.
+POST_R5_EDITS = {'tests/test_r4r_artifacts.py'}
+PRUNED = {r['path']: r['sha256'] for r in json.loads((ROOT / 'artifacts/self_improve/pruned_model_files.json').read_text())['files']}
+
+
 def test_protected_inputs_unchanged():
     hashes = load(DIAG / 'r4r_protected_before.json')
     # docs/ is the author's local, untracked spec (gitignored); its status lines and error corrections
     # changed after this snapshot (R5 status, R6 status, 2026-09-30 corrections), so it is not guarded here.
     for path, expected in hashes.items():
         if path.startswith('docs/'):
+            continue
+        if path in POST_R5_EDITS:  # intentionally edited after R5: the R5-final version must match the snapshot
+            blob = subprocess.run(['git', 'show', f'{R5_FINAL}:{path}'], cwd=ROOT, capture_output=True, check=True).stdout
+            assert hashlib.sha256(blob).hexdigest() == expected, path
+            continue
+        if path in PRUNED:  # removed after the HF release; the pruned record must carry the protected hash
+            assert PRUNED[path]==expected and not (ROOT / path).exists(), path
             continue
         with (ROOT / path).open('rb') as f: assert hashlib.file_digest(f, 'sha256').hexdigest() == expected, path

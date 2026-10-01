@@ -6,7 +6,7 @@ from pathlib import Path
 import pytest
 
 from scripts.self_improve.r6_offline_replay import (
-    MockBackend, canonical_metric, default_choosers, load_adapter_map, lora_request_id, run_g1,
+    MockBackend, canonical_metric, load_adapter_map, lora_request_id, run_g1,
     run_g2, run_smoke,
 )
 from src.curriculum.failure_driven import PI0
@@ -20,9 +20,24 @@ def _contains_tv_key(value):
     return False
 
 
+def _fake_choosers(root):
+    """Placeholder adapters: the mock backend never loads weights, so tests need no local checkpoints."""
+    mapping = {}
+    for seed in (42, 137, 2718):
+        mapping[str(seed)] = {}
+        for kind in ("u20", "u80"):
+            path = root / f"{kind}_{seed}"
+            path.mkdir(parents=True, exist_ok=True)
+            (path / "adapter_model.safetensors").write_bytes(f"{kind}-{seed}".encode())
+            mapping[str(seed)][kind] = str(path)
+    root.mkdir(parents=True, exist_ok=True)
+    (root / "adapter-map.json").write_text(json.dumps(mapping))
+    return load_adapter_map(root / "adapter-map.json")
+
+
 def _g1(tmp_path, mode):
     return run_g1(Path.cwd(), MockBackend(mode), tmp_path,
-                  choosers=default_choosers(Path.cwd()), deterministic_wall_time=True)
+                  choosers=_fake_choosers(tmp_path.parent / "fake_adapters"), deterministic_wall_time=True)
 
 
 def test_mock_constant_has_zero_input_sensitivity_and_no_tv_fields(tmp_path):
@@ -96,7 +111,7 @@ def test_adapter_map_resolves_without_default_checkpoint_tree(tmp_path):
 
 def test_smoke_has_exactly_one_window_base_and_u20_adapter(tmp_path):
     metrics = run_smoke(Path.cwd(), MockBackend("constant"), tmp_path,
-                        choosers=default_choosers(Path.cwd()), deterministic_wall_time=True)
+                        choosers=_fake_choosers(tmp_path / "fake_adapters"), deterministic_wall_time=True)
     records = [json.loads(line) for line in (tmp_path / "completions.jsonl").read_text().splitlines()]
     assert metrics["query_count"] == len(records) == 16
     assert {(row["seed"], row["arm"], row["stage"]) for row in records} == {(137, "failure_driven", 1)}

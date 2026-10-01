@@ -15,26 +15,40 @@ from r5_load_adapter import check_all,check_adapter
 from r5_verify_report import verify
 
 OUT=ROOT/'artifacts/self_improve/r5'
+# Local weights were removed after the HF release; artifacts/self_improve/pruned_model_files.json records each
+# removed file's sha256 and where it is archived, so a missing weight must still be accounted for by hash.
+PRUNED={r['path']:r for r in json.loads((ROOT/'artifacts/self_improve/pruned_model_files.json').read_text())['files']}
+
+def _weights_local():
+    return all((ROOT/r['local_path']/'adapter_model.safetensors').is_file()
+               for r in json.loads((OUT/'checkpoint_manifest.json').read_text()))
 
 def test_manifest_integrity_and_eval_links():
     manifest=json.loads((OUT/'checkpoint_manifest.json').read_text())
     assert len(manifest)==20 and len({r['name'] for r in manifest})==20
     for row in manifest:
         directory=ROOT/row['local_path']
-        assert {str(p.relative_to(directory)) for p in directory.rglob('*') if p.is_file()}==set(row['files'])
+        present={str(p.relative_to(directory)) for p in directory.rglob('*') if p.is_file()}
         for relative,digest in row['files'].items():
-            with (directory/relative).open('rb') as f: assert hashlib.file_digest(f,'sha256').hexdigest()==digest
+            if relative in present:
+                with (directory/relative).open('rb') as f: assert hashlib.file_digest(f,'sha256').hexdigest()==digest
+            else:  # removed locally: must be recorded with the same hash and archived on Hugging Face
+                pruned=PRUNED[row['local_path']+'/'+relative]
+                assert pruned['sha256']==digest and pruned['archived_at'].startswith('huggingface:')
+        assert present<=set(row['files'])
         if row['test_eval_json']:
             assert json.loads((ROOT/row['test_eval_json']).read_text())['lora_path']==row['remote_path']
         else: assert row['global_step']==20
         assert subprocess.run(['git','check-ignore','-q',str(directory/'adapter_model.safetensors')],cwd=ROOT).returncode==0
 
 def test_all_adapters():
+    if not _weights_local(): pytest.skip('adapter weights are archived on Hugging Face, not stored locally')
     results=check_all(OUT/'checkpoint_manifest.json')
     assert len(results)==20 and all(r['tensor_count']==504 for r in results)
 
 def test_adapter_negative_controls(tmp_path):
     # Each control modifies a temporary copy of a real archived adapter.
+    if not _weights_local(): pytest.skip('adapter weights are archived on Hugging Face, not stored locally')
     source=OUT/'checkpoints/r4_fixed_42_u80'
     (tmp_path/'adapter_config.json').write_bytes((source/'adapter_config.json').read_bytes())
     original=(source/'adapter_model.safetensors').read_bytes()

@@ -1,0 +1,1267 @@
+{
+ "date": "2026-10-01",
+ "files": [
+  {
+   "archived_at": "huggingface:PrestoOverture/octorl-qwen3-4b-lora-archive/r3c_137_u20/adapter_model.safetensors",
+   "bytes": 132187856,
+   "path": "artifacts/self_improve/hf_release/archive/r3c_137_u20/adapter_model.safetensors",
+   "sha256": "e7d68fd875e46487187d14e8554e749045145b744b3c23904243e9c577f7d316"
+  },
+  {
+   "archived_at": "huggingface:PrestoOverture/octorl-qwen3-4b-lora-archive/r3c_137_u50/adapter_model.safetensors",
+   "bytes": 132187856,
+   "path": "artifacts/self_improve/hf_release/archive/r3c_137_u50/adapter_model.safetensors",
+   "sha256": "870731351f5e420011dbbfd0b22477025d09b916f2c374fb2b5f131fdc4a7bb8"
+  },
+  {
+   "archived_at": "huggingface:PrestoOverture/octorl-qwen3-4b-lora-archive/r3c_137_u80/adapter_model.safetensors",
+   "bytes": 132187856,
+   "path": "artifacts/self_improve/hf_release/archive/r3c_137_u80/adapter_model.safetensors",
+   "sha256": "1b39b3d5584914d85a21baa476f8e9cc2123bb3142d47250237f650b268be751"
+  },
+  {
+   "archived_at": "huggingface:PrestoOverture/octorl-qwen3-4b-lora-archive/r3c_42_u20/adapter_model.safetensors",
+   "bytes": 132187856,
+   "path": "artifacts/self_improve/hf_release/archive/r3c_42_u20/adapter_model.safetensors",
+   "sha256": "f7af949bee5feb930b589bbeeea277ae3ecbf4a3cc5a8078e8b89ca21ee25262"
+  },
+  {
+   "archived_at": "huggingface:PrestoOverture/octorl-qwen3-4b-lora-archive/r3c_42_u50/adapter_model.safetensors",
+   "bytes": 132187856,
+   "path": "artifacts/self_improve/hf_release/archive/r3c_42_u50/adapter_model.safetensors",
+   "sha256": "8c46174265bdbc741aa96857f460fd8e9a0bb716dd89d06bc148d2a178779865"
+  },
+  {
+   "archived_at": "huggingface:PrestoOverture/octorl-qwen3-4b-lora-archive/r3c_42_u80/adapter_model.safetensors",
+   "bytes": 132187856,
+   "path": "artifacts/self_improve/hf_release/archive/r3c_42_u80/adapter_model.safetensors",
+   "sha256": "78fab16f387539028971a9db5b6485a9308025dda5af3b1cd755dd02f329acff"
+  },
+  {
+   "archived_at": "huggingface:PrestoOverture/octorl-qwen3-4b-lora-archive/r4_failure_driven_137_u80/adapter_model.safetensors",
+   "bytes": 132187856,
+   "path": "artifacts/self_improve/hf_release/archive/r4_failure_driven_137_u80/adapter_model.safetensors",
+   "sha256": "6fedd36a8b4cba4ca70383d1bb611751df2e48782ac96fef4d89c11c700b9196"
+  },
+  {
+   "archived_at": "huggingface:PrestoOverture/octorl-qwen3-4b-lora-archive/r4_failure_driven_2718_u80/adapter_model.safetensors",
+   "bytes": 132187856,
+   "path": "artifacts/self_improve/hf_release/archive/r4_failure_driven_2718_u80/adapter_model.safetensors",
+   "sha256": "cef415bea02048c491709d594c46a7b1a867ca4c8e2880e6b622a6eb3f6c16e7"
+  },
+  {
+   "archived_at": "huggingface:PrestoOverture/octorl-qwen3-4b-lora-archive/r4_failure_driven_42_u80/adapter_model.safetensors",
+   "bytes": 132187856,
+   "path": "artifacts/self_improve/hf_release/archive/r4_failure_driven_42_u80/adapter_model.safetensors",
+   "sha256": "f0f6f8d19c002c963a6f78b3ef9a617e7f0721b49d8bc4a6badeda9e8c2c076a"
+  },
+  {
+   "archived_at": "huggingface:PrestoOverture/octorl-qwen3-4b-lora-archive/r4_fixed_137_u80/adapter_model.safetensors",
+   "bytes": 132187856,
+   "path": "artifacts/self_improve/hf_release/archive/r4_fixed_137_u80/adapter_model.safetensors",
+   "sha256": "98d745dde0dd1f12a4e4c90d0bfd169d463c715787c0003507d3a85d06634343"
+  },
+  {
+   "archived_at": "huggingface:PrestoOverture/octorl-qwen3-4b-lora-archive/r4_fixed_2718_u80/adapter_model.safetensors",
+   "bytes": 132187856,
+   "path": "artifacts/self_improve/hf_release/archive/r4_fixed_2718_u80/adapter_model.safetensors",
+   "sha256": "c75d104f2a64275703898f14a2cf533fbb5cd4d3bcfa73c6c38641dffd66f8ad"
+  },
+  {
+   "archived_at": "huggingface:PrestoOverture/octorl-qwen3-4b-lora-archive/r4_fixed_42_u80/adapter_model.safetensors",
+   "bytes": 132187856,
+   "path": "artifacts/self_improve/hf_release/archive/r4_fixed_42_u80/adapter_model.safetensors",
+   "sha256": "cd52e7a3c154876c390a2ac36927c24ddd0d71509431d4b1bcb9a0d82b72626e"
+  },
+  {
+   "archived_at": "huggingface:PrestoOverture/octorl-qwen3-4b-lora-archive/r4_warmup_2718_u20/adapter_model.safetensors",
+   "bytes": 132187856,
+   "path": "artifacts/self_improve/hf_release/archive/r4_warmup_2718_u20/adapter_model.safetensors",
+   "sha256": "d7bb078f73dc2fc9889fc930864fc98e939db08a10b788a85cc030316f181719"
+  },
+  {
+   "archived_at": "huggingface:PrestoOverture/octorl-qwen3-4b-lora-archive/r4r_warmup_2718_u20/adapter_model.safetensors",
+   "bytes": 132187856,
+   "path": "artifacts/self_improve/hf_release/archive/r4r_warmup_2718_u20/adapter_model.safetensors",
+   "sha256": "2e97026dbb304c052a0a4ad5a1c1fd0e36d98ca81f6e8bcd638a19affededc21"
+  },
+  {
+   "archived_at": "huggingface:PrestoOverture/octorl-qwen3-4b-grpo-lora/r4r_failure_driven_137_u80/adapter_model.safetensors",
+   "bytes": 132187856,
+   "path": "artifacts/self_improve/hf_release/public/r4r_failure_driven_137_u80/adapter_model.safetensors",
+   "sha256": "0576547a1161331e3300351e09d7b34ca9e2da2a8134c34edc769a43d41facc0"
+  },
+  {
+   "archived_at": "huggingface:PrestoOverture/octorl-qwen3-4b-grpo-lora/r4r_failure_driven_2718_u80/adapter_model.safetensors",
+   "bytes": 132187856,
+   "path": "artifacts/self_improve/hf_release/public/r4r_failure_driven_2718_u80/adapter_model.safetensors",
+   "sha256": "6a5f6bb6e8712e76deee804ff54728bafabed9abec0e5bfb5f43c01bb557d8b6"
+  },
+  {
+   "archived_at": "huggingface:PrestoOverture/octorl-qwen3-4b-grpo-lora/r4r_failure_driven_42_u80/adapter_model.safetensors",
+   "bytes": 132187856,
+   "path": "artifacts/self_improve/hf_release/public/r4r_failure_driven_42_u80/adapter_model.safetensors",
+   "sha256": "bab5f2aa4a61b41b54ff0c98dfceb5142ad9a225dbf7b9579a8b97df978a3c1c"
+  },
+  {
+   "archived_at": "huggingface:PrestoOverture/octorl-qwen3-4b-grpo-lora/r4r_fixed_137_u80/adapter_model.safetensors",
+   "bytes": 132187856,
+   "path": "artifacts/self_improve/hf_release/public/r4r_fixed_137_u80/adapter_model.safetensors",
+   "sha256": "bb04a8706d4fc58f78fbd5e179dfc610ca2d0fa4102c834ffe917e9d6be85201"
+  },
+  {
+   "archived_at": "huggingface:PrestoOverture/octorl-qwen3-4b-grpo-lora/r4r_fixed_2718_u80/adapter_model.safetensors",
+   "bytes": 132187856,
+   "path": "artifacts/self_improve/hf_release/public/r4r_fixed_2718_u80/adapter_model.safetensors",
+   "sha256": "ffb5c2656b688a79da48638e2fe6ddd65a5fd6cc65b92c692a98b35c1d4f3551"
+  },
+  {
+   "archived_at": "huggingface:PrestoOverture/octorl-qwen3-4b-grpo-lora/r4r_fixed_42_u80/adapter_model.safetensors",
+   "bytes": 132187856,
+   "path": "artifacts/self_improve/hf_release/public/r4r_fixed_42_u80/adapter_model.safetensors",
+   "sha256": "8b123037d5588aad02b56a4b1b4926ea8289574f9d5e3d482345c8b4e1eb3709"
+  },
+  {
+   "archived_at": "not archived: byte-identical to Qwen/Qwen3-4B@1cfa9a7 merges.txt (verified 2026-10-01)",
+   "bytes": 1671853,
+   "path": "artifacts/self_improve/r4/checkpoint_archive/seed_137/failure_driven/stage_1/attempt_1/checkpoints/global_step_30/actor/huggingface/merges.txt",
+   "sha256": "8831e4f1a044471340f7c0a83d7bd71306a5b867e95fd870f74d0c5308a904d5"
+  },
+  {
+   "archived_at": "not archived: byte-identical to Qwen/Qwen3-4B@1cfa9a7 tokenizer.json (verified 2026-10-01)",
+   "bytes": 11422654,
+   "path": "artifacts/self_improve/r4/checkpoint_archive/seed_137/failure_driven/stage_1/attempt_1/checkpoints/global_step_30/actor/huggingface/tokenizer.json",
+   "sha256": "aeb13307a71acd8fe81861d94ad54ab689df773318809eed3cbe794b4492dae4"
+  },
+  {
+   "archived_at": "not archived: byte-identical to Qwen/Qwen3-4B@1cfa9a7 vocab.json (verified 2026-10-01)",
+   "bytes": 2776833,
+   "path": "artifacts/self_improve/r4/checkpoint_archive/seed_137/failure_driven/stage_1/attempt_1/checkpoints/global_step_30/actor/huggingface/vocab.json",
+   "sha256": "ca10d7e9fb3ed18575dd1e277a2579c16d108e32f27439684afa0e10b1440910"
+  },
+  {
+   "archived_at": "not archived: superseded R4 intermediate stage checkpoint",
+   "bytes": 132187856,
+   "path": "artifacts/self_improve/r4/checkpoint_archive/seed_137/failure_driven/stage_1/attempt_1/checkpoints/global_step_30/actor/lora_adapter/adapter_model.safetensors",
+   "sha256": "a06ca79ba0df48648e5ed12403e13a8839b2cf4bc49f3e88552cd0d950751305"
+  },
+  {
+   "archived_at": "not archived: byte-identical to Qwen/Qwen3-4B@1cfa9a7 merges.txt (verified 2026-10-01)",
+   "bytes": 1671853,
+   "path": "artifacts/self_improve/r4/checkpoint_archive/seed_137/failure_driven/stage_2/attempt_1/checkpoints/global_step_40/actor/huggingface/merges.txt",
+   "sha256": "8831e4f1a044471340f7c0a83d7bd71306a5b867e95fd870f74d0c5308a904d5"
+  },
+  {
+   "archived_at": "not archived: byte-identical to Qwen/Qwen3-4B@1cfa9a7 tokenizer.json (verified 2026-10-01)",
+   "bytes": 11422654,
+   "path": "artifacts/self_improve/r4/checkpoint_archive/seed_137/failure_driven/stage_2/attempt_1/checkpoints/global_step_40/actor/huggingface/tokenizer.json",
+   "sha256": "aeb13307a71acd8fe81861d94ad54ab689df773318809eed3cbe794b4492dae4"
+  },
+  {
+   "archived_at": "not archived: byte-identical to Qwen/Qwen3-4B@1cfa9a7 vocab.json (verified 2026-10-01)",
+   "bytes": 2776833,
+   "path": "artifacts/self_improve/r4/checkpoint_archive/seed_137/failure_driven/stage_2/attempt_1/checkpoints/global_step_40/actor/huggingface/vocab.json",
+   "sha256": "ca10d7e9fb3ed18575dd1e277a2579c16d108e32f27439684afa0e10b1440910"
+  },
+  {
+   "archived_at": "not archived: superseded R4 intermediate stage checkpoint",
+   "bytes": 132187856,
+   "path": "artifacts/self_improve/r4/checkpoint_archive/seed_137/failure_driven/stage_2/attempt_1/checkpoints/global_step_40/actor/lora_adapter/adapter_model.safetensors",
+   "sha256": "e5b3ac810354b916f13094f49a95cdea39f517dc0f399b469b94cbe4988d88a1"
+  },
+  {
+   "archived_at": "not archived: byte-identical to Qwen/Qwen3-4B@1cfa9a7 merges.txt (verified 2026-10-01)",
+   "bytes": 1671853,
+   "path": "artifacts/self_improve/r4/checkpoint_archive/seed_137/failure_driven/stage_3/attempt_1/checkpoints/global_step_50/actor/huggingface/merges.txt",
+   "sha256": "8831e4f1a044471340f7c0a83d7bd71306a5b867e95fd870f74d0c5308a904d5"
+  },
+  {
+   "archived_at": "not archived: byte-identical to Qwen/Qwen3-4B@1cfa9a7 tokenizer.json (verified 2026-10-01)",
+   "bytes": 11422654,
+   "path": "artifacts/self_improve/r4/checkpoint_archive/seed_137/failure_driven/stage_3/attempt_1/checkpoints/global_step_50/actor/huggingface/tokenizer.json",
+   "sha256": "aeb13307a71acd8fe81861d94ad54ab689df773318809eed3cbe794b4492dae4"
+  },
+  {
+   "archived_at": "not archived: byte-identical to Qwen/Qwen3-4B@1cfa9a7 vocab.json (verified 2026-10-01)",
+   "bytes": 2776833,
+   "path": "artifacts/self_improve/r4/checkpoint_archive/seed_137/failure_driven/stage_3/attempt_1/checkpoints/global_step_50/actor/huggingface/vocab.json",
+   "sha256": "ca10d7e9fb3ed18575dd1e277a2579c16d108e32f27439684afa0e10b1440910"
+  },
+  {
+   "archived_at": "not archived: superseded R4 intermediate stage checkpoint",
+   "bytes": 132187856,
+   "path": "artifacts/self_improve/r4/checkpoint_archive/seed_137/failure_driven/stage_3/attempt_1/checkpoints/global_step_50/actor/lora_adapter/adapter_model.safetensors",
+   "sha256": "6f8d1a9f3be3ace0ae356a367976d8ae859e380965cc015c5d3acd71e4ac746c"
+  },
+  {
+   "archived_at": "not archived: byte-identical to Qwen/Qwen3-4B@1cfa9a7 merges.txt (verified 2026-10-01)",
+   "bytes": 1671853,
+   "path": "artifacts/self_improve/r4/checkpoint_archive/seed_137/failure_driven/stage_4/attempt_1/checkpoints/global_step_60/actor/huggingface/merges.txt",
+   "sha256": "8831e4f1a044471340f7c0a83d7bd71306a5b867e95fd870f74d0c5308a904d5"
+  },
+  {
+   "archived_at": "not archived: byte-identical to Qwen/Qwen3-4B@1cfa9a7 tokenizer.json (verified 2026-10-01)",
+   "bytes": 11422654,
+   "path": "artifacts/self_improve/r4/checkpoint_archive/seed_137/failure_driven/stage_4/attempt_1/checkpoints/global_step_60/actor/huggingface/tokenizer.json",
+   "sha256": "aeb13307a71acd8fe81861d94ad54ab689df773318809eed3cbe794b4492dae4"
+  },
+  {
+   "archived_at": "not archived: byte-identical to Qwen/Qwen3-4B@1cfa9a7 vocab.json (verified 2026-10-01)",
+   "bytes": 2776833,
+   "path": "artifacts/self_improve/r4/checkpoint_archive/seed_137/failure_driven/stage_4/attempt_1/checkpoints/global_step_60/actor/huggingface/vocab.json",
+   "sha256": "ca10d7e9fb3ed18575dd1e277a2579c16d108e32f27439684afa0e10b1440910"
+  },
+  {
+   "archived_at": "not archived: superseded R4 intermediate stage checkpoint",
+   "bytes": 132187856,
+   "path": "artifacts/self_improve/r4/checkpoint_archive/seed_137/failure_driven/stage_4/attempt_1/checkpoints/global_step_60/actor/lora_adapter/adapter_model.safetensors",
+   "sha256": "ee33e4ccfd5eb4d2e9bf7188e7c2d7a8f448238fcf690f5638c58b996138baf9"
+  },
+  {
+   "archived_at": "not archived: byte-identical to Qwen/Qwen3-4B@1cfa9a7 merges.txt (verified 2026-10-01)",
+   "bytes": 1671853,
+   "path": "artifacts/self_improve/r4/checkpoint_archive/seed_137/failure_driven/stage_5/attempt_1/checkpoints/global_step_70/actor/huggingface/merges.txt",
+   "sha256": "8831e4f1a044471340f7c0a83d7bd71306a5b867e95fd870f74d0c5308a904d5"
+  },
+  {
+   "archived_at": "not archived: byte-identical to Qwen/Qwen3-4B@1cfa9a7 tokenizer.json (verified 2026-10-01)",
+   "bytes": 11422654,
+   "path": "artifacts/self_improve/r4/checkpoint_archive/seed_137/failure_driven/stage_5/attempt_1/checkpoints/global_step_70/actor/huggingface/tokenizer.json",
+   "sha256": "aeb13307a71acd8fe81861d94ad54ab689df773318809eed3cbe794b4492dae4"
+  },
+  {
+   "archived_at": "not archived: byte-identical to Qwen/Qwen3-4B@1cfa9a7 vocab.json (verified 2026-10-01)",
+   "bytes": 2776833,
+   "path": "artifacts/self_improve/r4/checkpoint_archive/seed_137/failure_driven/stage_5/attempt_1/checkpoints/global_step_70/actor/huggingface/vocab.json",
+   "sha256": "ca10d7e9fb3ed18575dd1e277a2579c16d108e32f27439684afa0e10b1440910"
+  },
+  {
+   "archived_at": "not archived: superseded R4 intermediate stage checkpoint",
+   "bytes": 132187856,
+   "path": "artifacts/self_improve/r4/checkpoint_archive/seed_137/failure_driven/stage_5/attempt_1/checkpoints/global_step_70/actor/lora_adapter/adapter_model.safetensors",
+   "sha256": "e293fbaac53573c72cebcf8550680cbe7942d09ca5c5186f680432a5e84ec7b4"
+  },
+  {
+   "archived_at": "not archived: byte-identical to Qwen/Qwen3-4B@1cfa9a7 merges.txt (verified 2026-10-01)",
+   "bytes": 1671853,
+   "path": "artifacts/self_improve/r4/checkpoint_archive/seed_137/failure_driven/stage_6/attempt_1/checkpoints/global_step_80/actor/huggingface/merges.txt",
+   "sha256": "8831e4f1a044471340f7c0a83d7bd71306a5b867e95fd870f74d0c5308a904d5"
+  },
+  {
+   "archived_at": "not archived: byte-identical to Qwen/Qwen3-4B@1cfa9a7 tokenizer.json (verified 2026-10-01)",
+   "bytes": 11422654,
+   "path": "artifacts/self_improve/r4/checkpoint_archive/seed_137/failure_driven/stage_6/attempt_1/checkpoints/global_step_80/actor/huggingface/tokenizer.json",
+   "sha256": "aeb13307a71acd8fe81861d94ad54ab689df773318809eed3cbe794b4492dae4"
+  },
+  {
+   "archived_at": "not archived: byte-identical to Qwen/Qwen3-4B@1cfa9a7 vocab.json (verified 2026-10-01)",
+   "bytes": 2776833,
+   "path": "artifacts/self_improve/r4/checkpoint_archive/seed_137/failure_driven/stage_6/attempt_1/checkpoints/global_step_80/actor/huggingface/vocab.json",
+   "sha256": "ca10d7e9fb3ed18575dd1e277a2579c16d108e32f27439684afa0e10b1440910"
+  },
+  {
+   "archived_at": "huggingface:PrestoOverture/octorl-qwen3-4b-lora-archive/r4_failure_driven_137_u80/adapter_model.safetensors",
+   "bytes": 132187856,
+   "path": "artifacts/self_improve/r4/checkpoint_archive/seed_137/failure_driven/stage_6/attempt_1/checkpoints/global_step_80/actor/lora_adapter/adapter_model.safetensors",
+   "sha256": "6fedd36a8b4cba4ca70383d1bb611751df2e48782ac96fef4d89c11c700b9196"
+  },
+  {
+   "archived_at": "not archived: R4 optimizer state (superseded run)",
+   "bytes": 264907132,
+   "path": "artifacts/self_improve/r4/checkpoint_archive/seed_137/failure_driven/stage_6/attempt_1/checkpoints/global_step_80/actor/optim_world_size_1_rank_0.pt",
+   "sha256": "4333b199ccd41259093e7848147c20862928c9658f42ce350433127bf9964e68"
+  },
+  {
+   "archived_at": "not archived: byte-identical to Qwen/Qwen3-4B@1cfa9a7 merges.txt (verified 2026-10-01)",
+   "bytes": 1671853,
+   "path": "artifacts/self_improve/r4/checkpoint_archive/seed_137/fixed/stage_1/attempt_1/checkpoints/global_step_30/actor/huggingface/merges.txt",
+   "sha256": "8831e4f1a044471340f7c0a83d7bd71306a5b867e95fd870f74d0c5308a904d5"
+  },
+  {
+   "archived_at": "not archived: byte-identical to Qwen/Qwen3-4B@1cfa9a7 tokenizer.json (verified 2026-10-01)",
+   "bytes": 11422654,
+   "path": "artifacts/self_improve/r4/checkpoint_archive/seed_137/fixed/stage_1/attempt_1/checkpoints/global_step_30/actor/huggingface/tokenizer.json",
+   "sha256": "aeb13307a71acd8fe81861d94ad54ab689df773318809eed3cbe794b4492dae4"
+  },
+  {
+   "archived_at": "not archived: byte-identical to Qwen/Qwen3-4B@1cfa9a7 vocab.json (verified 2026-10-01)",
+   "bytes": 2776833,
+   "path": "artifacts/self_improve/r4/checkpoint_archive/seed_137/fixed/stage_1/attempt_1/checkpoints/global_step_30/actor/huggingface/vocab.json",
+   "sha256": "ca10d7e9fb3ed18575dd1e277a2579c16d108e32f27439684afa0e10b1440910"
+  },
+  {
+   "archived_at": "not archived: superseded R4 intermediate stage checkpoint",
+   "bytes": 132187856,
+   "path": "artifacts/self_improve/r4/checkpoint_archive/seed_137/fixed/stage_1/attempt_1/checkpoints/global_step_30/actor/lora_adapter/adapter_model.safetensors",
+   "sha256": "21808fc20ac2975330bfefb79fe894f07884dc128f51b0360c4673d731f1cc7c"
+  },
+  {
+   "archived_at": "not archived: byte-identical to Qwen/Qwen3-4B@1cfa9a7 merges.txt (verified 2026-10-01)",
+   "bytes": 1671853,
+   "path": "artifacts/self_improve/r4/checkpoint_archive/seed_137/fixed/stage_2/attempt_1/checkpoints/global_step_40/actor/huggingface/merges.txt",
+   "sha256": "8831e4f1a044471340f7c0a83d7bd71306a5b867e95fd870f74d0c5308a904d5"
+  },
+  {
+   "archived_at": "not archived: byte-identical to Qwen/Qwen3-4B@1cfa9a7 tokenizer.json (verified 2026-10-01)",
+   "bytes": 11422654,
+   "path": "artifacts/self_improve/r4/checkpoint_archive/seed_137/fixed/stage_2/attempt_1/checkpoints/global_step_40/actor/huggingface/tokenizer.json",
+   "sha256": "aeb13307a71acd8fe81861d94ad54ab689df773318809eed3cbe794b4492dae4"
+  },
+  {
+   "archived_at": "not archived: byte-identical to Qwen/Qwen3-4B@1cfa9a7 vocab.json (verified 2026-10-01)",
+   "bytes": 2776833,
+   "path": "artifacts/self_improve/r4/checkpoint_archive/seed_137/fixed/stage_2/attempt_1/checkpoints/global_step_40/actor/huggingface/vocab.json",
+   "sha256": "ca10d7e9fb3ed18575dd1e277a2579c16d108e32f27439684afa0e10b1440910"
+  },
+  {
+   "archived_at": "not archived: superseded R4 intermediate stage checkpoint",
+   "bytes": 132187856,
+   "path": "artifacts/self_improve/r4/checkpoint_archive/seed_137/fixed/stage_2/attempt_1/checkpoints/global_step_40/actor/lora_adapter/adapter_model.safetensors",
+   "sha256": "29b2fc3a93ba1787b8f4226f57b7680e63a9ee798681f35d049df0eb271bfa61"
+  },
+  {
+   "archived_at": "not archived: byte-identical to Qwen/Qwen3-4B@1cfa9a7 merges.txt (verified 2026-10-01)",
+   "bytes": 1671853,
+   "path": "artifacts/self_improve/r4/checkpoint_archive/seed_137/fixed/stage_3/attempt_1/checkpoints/global_step_50/actor/huggingface/merges.txt",
+   "sha256": "8831e4f1a044471340f7c0a83d7bd71306a5b867e95fd870f74d0c5308a904d5"
+  },
+  {
+   "archived_at": "not archived: byte-identical to Qwen/Qwen3-4B@1cfa9a7 tokenizer.json (verified 2026-10-01)",
+   "bytes": 11422654,
+   "path": "artifacts/self_improve/r4/checkpoint_archive/seed_137/fixed/stage_3/attempt_1/checkpoints/global_step_50/actor/huggingface/tokenizer.json",
+   "sha256": "aeb13307a71acd8fe81861d94ad54ab689df773318809eed3cbe794b4492dae4"
+  },
+  {
+   "archived_at": "not archived: byte-identical to Qwen/Qwen3-4B@1cfa9a7 vocab.json (verified 2026-10-01)",
+   "bytes": 2776833,
+   "path": "artifacts/self_improve/r4/checkpoint_archive/seed_137/fixed/stage_3/attempt_1/checkpoints/global_step_50/actor/huggingface/vocab.json",
+   "sha256": "ca10d7e9fb3ed18575dd1e277a2579c16d108e32f27439684afa0e10b1440910"
+  },
+  {
+   "archived_at": "not archived: superseded R4 intermediate stage checkpoint",
+   "bytes": 132187856,
+   "path": "artifacts/self_improve/r4/checkpoint_archive/seed_137/fixed/stage_3/attempt_1/checkpoints/global_step_50/actor/lora_adapter/adapter_model.safetensors",
+   "sha256": "e70c85a10ed428776bdd159e91342a6030cda908a39bf26d0dd83810aeb40011"
+  },
+  {
+   "archived_at": "not archived: byte-identical to Qwen/Qwen3-4B@1cfa9a7 merges.txt (verified 2026-10-01)",
+   "bytes": 1671853,
+   "path": "artifacts/self_improve/r4/checkpoint_archive/seed_137/fixed/stage_4/attempt_1/checkpoints/global_step_60/actor/huggingface/merges.txt",
+   "sha256": "8831e4f1a044471340f7c0a83d7bd71306a5b867e95fd870f74d0c5308a904d5"
+  },
+  {
+   "archived_at": "not archived: byte-identical to Qwen/Qwen3-4B@1cfa9a7 tokenizer.json (verified 2026-10-01)",
+   "bytes": 11422654,
+   "path": "artifacts/self_improve/r4/checkpoint_archive/seed_137/fixed/stage_4/attempt_1/checkpoints/global_step_60/actor/huggingface/tokenizer.json",
+   "sha256": "aeb13307a71acd8fe81861d94ad54ab689df773318809eed3cbe794b4492dae4"
+  },
+  {
+   "archived_at": "not archived: byte-identical to Qwen/Qwen3-4B@1cfa9a7 vocab.json (verified 2026-10-01)",
+   "bytes": 2776833,
+   "path": "artifacts/self_improve/r4/checkpoint_archive/seed_137/fixed/stage_4/attempt_1/checkpoints/global_step_60/actor/huggingface/vocab.json",
+   "sha256": "ca10d7e9fb3ed18575dd1e277a2579c16d108e32f27439684afa0e10b1440910"
+  },
+  {
+   "archived_at": "not archived: superseded R4 intermediate stage checkpoint",
+   "bytes": 132187856,
+   "path": "artifacts/self_improve/r4/checkpoint_archive/seed_137/fixed/stage_4/attempt_1/checkpoints/global_step_60/actor/lora_adapter/adapter_model.safetensors",
+   "sha256": "4206acfa3058ca25a5d406f30d522340793c57f31a6c6f2447dee6ed646a7fbd"
+  },
+  {
+   "archived_at": "not archived: byte-identical to Qwen/Qwen3-4B@1cfa9a7 merges.txt (verified 2026-10-01)",
+   "bytes": 1671853,
+   "path": "artifacts/self_improve/r4/checkpoint_archive/seed_137/fixed/stage_5/attempt_1/checkpoints/global_step_70/actor/huggingface/merges.txt",
+   "sha256": "8831e4f1a044471340f7c0a83d7bd71306a5b867e95fd870f74d0c5308a904d5"
+  },
+  {
+   "archived_at": "not archived: byte-identical to Qwen/Qwen3-4B@1cfa9a7 tokenizer.json (verified 2026-10-01)",
+   "bytes": 11422654,
+   "path": "artifacts/self_improve/r4/checkpoint_archive/seed_137/fixed/stage_5/attempt_1/checkpoints/global_step_70/actor/huggingface/tokenizer.json",
+   "sha256": "aeb13307a71acd8fe81861d94ad54ab689df773318809eed3cbe794b4492dae4"
+  },
+  {
+   "archived_at": "not archived: byte-identical to Qwen/Qwen3-4B@1cfa9a7 vocab.json (verified 2026-10-01)",
+   "bytes": 2776833,
+   "path": "artifacts/self_improve/r4/checkpoint_archive/seed_137/fixed/stage_5/attempt_1/checkpoints/global_step_70/actor/huggingface/vocab.json",
+   "sha256": "ca10d7e9fb3ed18575dd1e277a2579c16d108e32f27439684afa0e10b1440910"
+  },
+  {
+   "archived_at": "not archived: superseded R4 intermediate stage checkpoint",
+   "bytes": 132187856,
+   "path": "artifacts/self_improve/r4/checkpoint_archive/seed_137/fixed/stage_5/attempt_1/checkpoints/global_step_70/actor/lora_adapter/adapter_model.safetensors",
+   "sha256": "067b09778501322f5447a30fb70de7a226ba208fe535497f55fa6df339a417b5"
+  },
+  {
+   "archived_at": "not archived: byte-identical to Qwen/Qwen3-4B@1cfa9a7 merges.txt (verified 2026-10-01)",
+   "bytes": 1671853,
+   "path": "artifacts/self_improve/r4/checkpoint_archive/seed_137/fixed/stage_6/attempt_1/checkpoints/global_step_80/actor/huggingface/merges.txt",
+   "sha256": "8831e4f1a044471340f7c0a83d7bd71306a5b867e95fd870f74d0c5308a904d5"
+  },
+  {
+   "archived_at": "not archived: byte-identical to Qwen/Qwen3-4B@1cfa9a7 tokenizer.json (verified 2026-10-01)",
+   "bytes": 11422654,
+   "path": "artifacts/self_improve/r4/checkpoint_archive/seed_137/fixed/stage_6/attempt_1/checkpoints/global_step_80/actor/huggingface/tokenizer.json",
+   "sha256": "aeb13307a71acd8fe81861d94ad54ab689df773318809eed3cbe794b4492dae4"
+  },
+  {
+   "archived_at": "not archived: byte-identical to Qwen/Qwen3-4B@1cfa9a7 vocab.json (verified 2026-10-01)",
+   "bytes": 2776833,
+   "path": "artifacts/self_improve/r4/checkpoint_archive/seed_137/fixed/stage_6/attempt_1/checkpoints/global_step_80/actor/huggingface/vocab.json",
+   "sha256": "ca10d7e9fb3ed18575dd1e277a2579c16d108e32f27439684afa0e10b1440910"
+  },
+  {
+   "archived_at": "huggingface:PrestoOverture/octorl-qwen3-4b-lora-archive/r4_fixed_137_u80/adapter_model.safetensors",
+   "bytes": 132187856,
+   "path": "artifacts/self_improve/r4/checkpoint_archive/seed_137/fixed/stage_6/attempt_1/checkpoints/global_step_80/actor/lora_adapter/adapter_model.safetensors",
+   "sha256": "98d745dde0dd1f12a4e4c90d0bfd169d463c715787c0003507d3a85d06634343"
+  },
+  {
+   "archived_at": "not archived: R4 optimizer state (superseded run)",
+   "bytes": 264907132,
+   "path": "artifacts/self_improve/r4/checkpoint_archive/seed_137/fixed/stage_6/attempt_1/checkpoints/global_step_80/actor/optim_world_size_1_rank_0.pt",
+   "sha256": "cb9a56d286e8dad79ade954649118c59e404e398277f1c76788b5bce1761ea39"
+  },
+  {
+   "archived_at": "not archived: byte-identical to Qwen/Qwen3-4B@1cfa9a7 merges.txt (verified 2026-10-01)",
+   "bytes": 1671853,
+   "path": "artifacts/self_improve/r4/checkpoint_archive/seed_2718/failure_driven/stage_1/attempt_1/checkpoints/global_step_30/actor/huggingface/merges.txt",
+   "sha256": "8831e4f1a044471340f7c0a83d7bd71306a5b867e95fd870f74d0c5308a904d5"
+  },
+  {
+   "archived_at": "not archived: byte-identical to Qwen/Qwen3-4B@1cfa9a7 tokenizer.json (verified 2026-10-01)",
+   "bytes": 11422654,
+   "path": "artifacts/self_improve/r4/checkpoint_archive/seed_2718/failure_driven/stage_1/attempt_1/checkpoints/global_step_30/actor/huggingface/tokenizer.json",
+   "sha256": "aeb13307a71acd8fe81861d94ad54ab689df773318809eed3cbe794b4492dae4"
+  },
+  {
+   "archived_at": "not archived: byte-identical to Qwen/Qwen3-4B@1cfa9a7 vocab.json (verified 2026-10-01)",
+   "bytes": 2776833,
+   "path": "artifacts/self_improve/r4/checkpoint_archive/seed_2718/failure_driven/stage_1/attempt_1/checkpoints/global_step_30/actor/huggingface/vocab.json",
+   "sha256": "ca10d7e9fb3ed18575dd1e277a2579c16d108e32f27439684afa0e10b1440910"
+  },
+  {
+   "archived_at": "not archived: superseded R4 intermediate stage checkpoint",
+   "bytes": 132187856,
+   "path": "artifacts/self_improve/r4/checkpoint_archive/seed_2718/failure_driven/stage_1/attempt_1/checkpoints/global_step_30/actor/lora_adapter/adapter_model.safetensors",
+   "sha256": "00189fad9bc5c2cb9439cd170b008a21dcbb6259a9b4acf2a4c2e28d037817dc"
+  },
+  {
+   "archived_at": "not archived: byte-identical to Qwen/Qwen3-4B@1cfa9a7 merges.txt (verified 2026-10-01)",
+   "bytes": 1671853,
+   "path": "artifacts/self_improve/r4/checkpoint_archive/seed_2718/failure_driven/stage_2/attempt_1/checkpoints/global_step_40/actor/huggingface/merges.txt",
+   "sha256": "8831e4f1a044471340f7c0a83d7bd71306a5b867e95fd870f74d0c5308a904d5"
+  },
+  {
+   "archived_at": "not archived: byte-identical to Qwen/Qwen3-4B@1cfa9a7 tokenizer.json (verified 2026-10-01)",
+   "bytes": 11422654,
+   "path": "artifacts/self_improve/r4/checkpoint_archive/seed_2718/failure_driven/stage_2/attempt_1/checkpoints/global_step_40/actor/huggingface/tokenizer.json",
+   "sha256": "aeb13307a71acd8fe81861d94ad54ab689df773318809eed3cbe794b4492dae4"
+  },
+  {
+   "archived_at": "not archived: byte-identical to Qwen/Qwen3-4B@1cfa9a7 vocab.json (verified 2026-10-01)",
+   "bytes": 2776833,
+   "path": "artifacts/self_improve/r4/checkpoint_archive/seed_2718/failure_driven/stage_2/attempt_1/checkpoints/global_step_40/actor/huggingface/vocab.json",
+   "sha256": "ca10d7e9fb3ed18575dd1e277a2579c16d108e32f27439684afa0e10b1440910"
+  },
+  {
+   "archived_at": "not archived: superseded R4 intermediate stage checkpoint",
+   "bytes": 132187856,
+   "path": "artifacts/self_improve/r4/checkpoint_archive/seed_2718/failure_driven/stage_2/attempt_1/checkpoints/global_step_40/actor/lora_adapter/adapter_model.safetensors",
+   "sha256": "4bd9f91f278326ff1aa0ee33a4c4a0f5581defff822b76fb671c827c254c4347"
+  },
+  {
+   "archived_at": "not archived: byte-identical to Qwen/Qwen3-4B@1cfa9a7 merges.txt (verified 2026-10-01)",
+   "bytes": 1671853,
+   "path": "artifacts/self_improve/r4/checkpoint_archive/seed_2718/failure_driven/stage_3/attempt_1/checkpoints/global_step_50/actor/huggingface/merges.txt",
+   "sha256": "8831e4f1a044471340f7c0a83d7bd71306a5b867e95fd870f74d0c5308a904d5"
+  },
+  {
+   "archived_at": "not archived: byte-identical to Qwen/Qwen3-4B@1cfa9a7 tokenizer.json (verified 2026-10-01)",
+   "bytes": 11422654,
+   "path": "artifacts/self_improve/r4/checkpoint_archive/seed_2718/failure_driven/stage_3/attempt_1/checkpoints/global_step_50/actor/huggingface/tokenizer.json",
+   "sha256": "aeb13307a71acd8fe81861d94ad54ab689df773318809eed3cbe794b4492dae4"
+  },
+  {
+   "archived_at": "not archived: byte-identical to Qwen/Qwen3-4B@1cfa9a7 vocab.json (verified 2026-10-01)",
+   "bytes": 2776833,
+   "path": "artifacts/self_improve/r4/checkpoint_archive/seed_2718/failure_driven/stage_3/attempt_1/checkpoints/global_step_50/actor/huggingface/vocab.json",
+   "sha256": "ca10d7e9fb3ed18575dd1e277a2579c16d108e32f27439684afa0e10b1440910"
+  },
+  {
+   "archived_at": "not archived: superseded R4 intermediate stage checkpoint",
+   "bytes": 132187856,
+   "path": "artifacts/self_improve/r4/checkpoint_archive/seed_2718/failure_driven/stage_3/attempt_1/checkpoints/global_step_50/actor/lora_adapter/adapter_model.safetensors",
+   "sha256": "1e1e1708cc1e5858787380f8edafea963c9dbbc2c8859f5aa9ffa7d99c092299"
+  },
+  {
+   "archived_at": "not archived: byte-identical to Qwen/Qwen3-4B@1cfa9a7 merges.txt (verified 2026-10-01)",
+   "bytes": 1671853,
+   "path": "artifacts/self_improve/r4/checkpoint_archive/seed_2718/failure_driven/stage_4/attempt_1/checkpoints/global_step_60/actor/huggingface/merges.txt",
+   "sha256": "8831e4f1a044471340f7c0a83d7bd71306a5b867e95fd870f74d0c5308a904d5"
+  },
+  {
+   "archived_at": "not archived: byte-identical to Qwen/Qwen3-4B@1cfa9a7 tokenizer.json (verified 2026-10-01)",
+   "bytes": 11422654,
+   "path": "artifacts/self_improve/r4/checkpoint_archive/seed_2718/failure_driven/stage_4/attempt_1/checkpoints/global_step_60/actor/huggingface/tokenizer.json",
+   "sha256": "aeb13307a71acd8fe81861d94ad54ab689df773318809eed3cbe794b4492dae4"
+  },
+  {
+   "archived_at": "not archived: byte-identical to Qwen/Qwen3-4B@1cfa9a7 vocab.json (verified 2026-10-01)",
+   "bytes": 2776833,
+   "path": "artifacts/self_improve/r4/checkpoint_archive/seed_2718/failure_driven/stage_4/attempt_1/checkpoints/global_step_60/actor/huggingface/vocab.json",
+   "sha256": "ca10d7e9fb3ed18575dd1e277a2579c16d108e32f27439684afa0e10b1440910"
+  },
+  {
+   "archived_at": "not archived: superseded R4 intermediate stage checkpoint",
+   "bytes": 132187856,
+   "path": "artifacts/self_improve/r4/checkpoint_archive/seed_2718/failure_driven/stage_4/attempt_1/checkpoints/global_step_60/actor/lora_adapter/adapter_model.safetensors",
+   "sha256": "780f4726bafaebe5ccc490d36e28e968e20229daee99e52c16a55c7deaf3d296"
+  },
+  {
+   "archived_at": "not archived: byte-identical to Qwen/Qwen3-4B@1cfa9a7 merges.txt (verified 2026-10-01)",
+   "bytes": 1671853,
+   "path": "artifacts/self_improve/r4/checkpoint_archive/seed_2718/failure_driven/stage_5/attempt_1/checkpoints/global_step_70/actor/huggingface/merges.txt",
+   "sha256": "8831e4f1a044471340f7c0a83d7bd71306a5b867e95fd870f74d0c5308a904d5"
+  },
+  {
+   "archived_at": "not archived: byte-identical to Qwen/Qwen3-4B@1cfa9a7 tokenizer.json (verified 2026-10-01)",
+   "bytes": 11422654,
+   "path": "artifacts/self_improve/r4/checkpoint_archive/seed_2718/failure_driven/stage_5/attempt_1/checkpoints/global_step_70/actor/huggingface/tokenizer.json",
+   "sha256": "aeb13307a71acd8fe81861d94ad54ab689df773318809eed3cbe794b4492dae4"
+  },
+  {
+   "archived_at": "not archived: byte-identical to Qwen/Qwen3-4B@1cfa9a7 vocab.json (verified 2026-10-01)",
+   "bytes": 2776833,
+   "path": "artifacts/self_improve/r4/checkpoint_archive/seed_2718/failure_driven/stage_5/attempt_1/checkpoints/global_step_70/actor/huggingface/vocab.json",
+   "sha256": "ca10d7e9fb3ed18575dd1e277a2579c16d108e32f27439684afa0e10b1440910"
+  },
+  {
+   "archived_at": "not archived: superseded R4 intermediate stage checkpoint",
+   "bytes": 132187856,
+   "path": "artifacts/self_improve/r4/checkpoint_archive/seed_2718/failure_driven/stage_5/attempt_1/checkpoints/global_step_70/actor/lora_adapter/adapter_model.safetensors",
+   "sha256": "751ed9eb9928e8357968a4153ff3a205b2ce08208db9aeaf50849bdf08f9d72d"
+  },
+  {
+   "archived_at": "not archived: byte-identical to Qwen/Qwen3-4B@1cfa9a7 merges.txt (verified 2026-10-01)",
+   "bytes": 1671853,
+   "path": "artifacts/self_improve/r4/checkpoint_archive/seed_2718/failure_driven/stage_6/attempt_1/checkpoints/global_step_80/actor/huggingface/merges.txt",
+   "sha256": "8831e4f1a044471340f7c0a83d7bd71306a5b867e95fd870f74d0c5308a904d5"
+  },
+  {
+   "archived_at": "not archived: byte-identical to Qwen/Qwen3-4B@1cfa9a7 tokenizer.json (verified 2026-10-01)",
+   "bytes": 11422654,
+   "path": "artifacts/self_improve/r4/checkpoint_archive/seed_2718/failure_driven/stage_6/attempt_1/checkpoints/global_step_80/actor/huggingface/tokenizer.json",
+   "sha256": "aeb13307a71acd8fe81861d94ad54ab689df773318809eed3cbe794b4492dae4"
+  },
+  {
+   "archived_at": "not archived: byte-identical to Qwen/Qwen3-4B@1cfa9a7 vocab.json (verified 2026-10-01)",
+   "bytes": 2776833,
+   "path": "artifacts/self_improve/r4/checkpoint_archive/seed_2718/failure_driven/stage_6/attempt_1/checkpoints/global_step_80/actor/huggingface/vocab.json",
+   "sha256": "ca10d7e9fb3ed18575dd1e277a2579c16d108e32f27439684afa0e10b1440910"
+  },
+  {
+   "archived_at": "huggingface:PrestoOverture/octorl-qwen3-4b-lora-archive/r4_failure_driven_2718_u80/adapter_model.safetensors",
+   "bytes": 132187856,
+   "path": "artifacts/self_improve/r4/checkpoint_archive/seed_2718/failure_driven/stage_6/attempt_1/checkpoints/global_step_80/actor/lora_adapter/adapter_model.safetensors",
+   "sha256": "cef415bea02048c491709d594c46a7b1a867ca4c8e2880e6b622a6eb3f6c16e7"
+  },
+  {
+   "archived_at": "not archived: R4 optimizer state (superseded run)",
+   "bytes": 264906940,
+   "path": "artifacts/self_improve/r4/checkpoint_archive/seed_2718/failure_driven/stage_6/attempt_1/checkpoints/global_step_80/actor/optim_world_size_1_rank_0.pt",
+   "sha256": "d97b1f8b60ae84bdc87859ad00fa6d109e5bd801d062404433e2459ea63ff183"
+  },
+  {
+   "archived_at": "not archived: byte-identical to Qwen/Qwen3-4B@1cfa9a7 merges.txt (verified 2026-10-01)",
+   "bytes": 1671853,
+   "path": "artifacts/self_improve/r4/checkpoint_archive/seed_2718/fixed/stage_1/attempt_1/checkpoints/global_step_30/actor/huggingface/merges.txt",
+   "sha256": "8831e4f1a044471340f7c0a83d7bd71306a5b867e95fd870f74d0c5308a904d5"
+  },
+  {
+   "archived_at": "not archived: byte-identical to Qwen/Qwen3-4B@1cfa9a7 tokenizer.json (verified 2026-10-01)",
+   "bytes": 11422654,
+   "path": "artifacts/self_improve/r4/checkpoint_archive/seed_2718/fixed/stage_1/attempt_1/checkpoints/global_step_30/actor/huggingface/tokenizer.json",
+   "sha256": "aeb13307a71acd8fe81861d94ad54ab689df773318809eed3cbe794b4492dae4"
+  },
+  {
+   "archived_at": "not archived: byte-identical to Qwen/Qwen3-4B@1cfa9a7 vocab.json (verified 2026-10-01)",
+   "bytes": 2776833,
+   "path": "artifacts/self_improve/r4/checkpoint_archive/seed_2718/fixed/stage_1/attempt_1/checkpoints/global_step_30/actor/huggingface/vocab.json",
+   "sha256": "ca10d7e9fb3ed18575dd1e277a2579c16d108e32f27439684afa0e10b1440910"
+  },
+  {
+   "archived_at": "not archived: superseded R4 intermediate stage checkpoint",
+   "bytes": 132187856,
+   "path": "artifacts/self_improve/r4/checkpoint_archive/seed_2718/fixed/stage_1/attempt_1/checkpoints/global_step_30/actor/lora_adapter/adapter_model.safetensors",
+   "sha256": "7a1ae2364bc59cca6a23404523fb7d037b17437b8b533aa31137333c7abde271"
+  },
+  {
+   "archived_at": "not archived: byte-identical to Qwen/Qwen3-4B@1cfa9a7 merges.txt (verified 2026-10-01)",
+   "bytes": 1671853,
+   "path": "artifacts/self_improve/r4/checkpoint_archive/seed_2718/fixed/stage_2/attempt_1/checkpoints/global_step_40/actor/huggingface/merges.txt",
+   "sha256": "8831e4f1a044471340f7c0a83d7bd71306a5b867e95fd870f74d0c5308a904d5"
+  },
+  {
+   "archived_at": "not archived: byte-identical to Qwen/Qwen3-4B@1cfa9a7 tokenizer.json (verified 2026-10-01)",
+   "bytes": 11422654,
+   "path": "artifacts/self_improve/r4/checkpoint_archive/seed_2718/fixed/stage_2/attempt_1/checkpoints/global_step_40/actor/huggingface/tokenizer.json",
+   "sha256": "aeb13307a71acd8fe81861d94ad54ab689df773318809eed3cbe794b4492dae4"
+  },
+  {
+   "archived_at": "not archived: byte-identical to Qwen/Qwen3-4B@1cfa9a7 vocab.json (verified 2026-10-01)",
+   "bytes": 2776833,
+   "path": "artifacts/self_improve/r4/checkpoint_archive/seed_2718/fixed/stage_2/attempt_1/checkpoints/global_step_40/actor/huggingface/vocab.json",
+   "sha256": "ca10d7e9fb3ed18575dd1e277a2579c16d108e32f27439684afa0e10b1440910"
+  },
+  {
+   "archived_at": "not archived: superseded R4 intermediate stage checkpoint",
+   "bytes": 132187856,
+   "path": "artifacts/self_improve/r4/checkpoint_archive/seed_2718/fixed/stage_2/attempt_1/checkpoints/global_step_40/actor/lora_adapter/adapter_model.safetensors",
+   "sha256": "933d41fec5b3e8a93e169d8f721bffe3d8a749aae97b04f14e9a1a6f64b4a265"
+  },
+  {
+   "archived_at": "not archived: byte-identical to Qwen/Qwen3-4B@1cfa9a7 merges.txt (verified 2026-10-01)",
+   "bytes": 1671853,
+   "path": "artifacts/self_improve/r4/checkpoint_archive/seed_2718/fixed/stage_3/attempt_1/checkpoints/global_step_50/actor/huggingface/merges.txt",
+   "sha256": "8831e4f1a044471340f7c0a83d7bd71306a5b867e95fd870f74d0c5308a904d5"
+  },
+  {
+   "archived_at": "not archived: byte-identical to Qwen/Qwen3-4B@1cfa9a7 tokenizer.json (verified 2026-10-01)",
+   "bytes": 11422654,
+   "path": "artifacts/self_improve/r4/checkpoint_archive/seed_2718/fixed/stage_3/attempt_1/checkpoints/global_step_50/actor/huggingface/tokenizer.json",
+   "sha256": "aeb13307a71acd8fe81861d94ad54ab689df773318809eed3cbe794b4492dae4"
+  },
+  {
+   "archived_at": "not archived: byte-identical to Qwen/Qwen3-4B@1cfa9a7 vocab.json (verified 2026-10-01)",
+   "bytes": 2776833,
+   "path": "artifacts/self_improve/r4/checkpoint_archive/seed_2718/fixed/stage_3/attempt_1/checkpoints/global_step_50/actor/huggingface/vocab.json",
+   "sha256": "ca10d7e9fb3ed18575dd1e277a2579c16d108e32f27439684afa0e10b1440910"
+  },
+  {
+   "archived_at": "not archived: superseded R4 intermediate stage checkpoint",
+   "bytes": 132187856,
+   "path": "artifacts/self_improve/r4/checkpoint_archive/seed_2718/fixed/stage_3/attempt_1/checkpoints/global_step_50/actor/lora_adapter/adapter_model.safetensors",
+   "sha256": "3e579f4cfedf31db0bfbac87776068f9b0a6842895862615bc2766bd844db552"
+  },
+  {
+   "archived_at": "not archived: byte-identical to Qwen/Qwen3-4B@1cfa9a7 merges.txt (verified 2026-10-01)",
+   "bytes": 1671853,
+   "path": "artifacts/self_improve/r4/checkpoint_archive/seed_2718/fixed/stage_4/attempt_1/checkpoints/global_step_60/actor/huggingface/merges.txt",
+   "sha256": "8831e4f1a044471340f7c0a83d7bd71306a5b867e95fd870f74d0c5308a904d5"
+  },
+  {
+   "archived_at": "not archived: byte-identical to Qwen/Qwen3-4B@1cfa9a7 tokenizer.json (verified 2026-10-01)",
+   "bytes": 11422654,
+   "path": "artifacts/self_improve/r4/checkpoint_archive/seed_2718/fixed/stage_4/attempt_1/checkpoints/global_step_60/actor/huggingface/tokenizer.json",
+   "sha256": "aeb13307a71acd8fe81861d94ad54ab689df773318809eed3cbe794b4492dae4"
+  },
+  {
+   "archived_at": "not archived: byte-identical to Qwen/Qwen3-4B@1cfa9a7 vocab.json (verified 2026-10-01)",
+   "bytes": 2776833,
+   "path": "artifacts/self_improve/r4/checkpoint_archive/seed_2718/fixed/stage_4/attempt_1/checkpoints/global_step_60/actor/huggingface/vocab.json",
+   "sha256": "ca10d7e9fb3ed18575dd1e277a2579c16d108e32f27439684afa0e10b1440910"
+  },
+  {
+   "archived_at": "not archived: superseded R4 intermediate stage checkpoint",
+   "bytes": 132187856,
+   "path": "artifacts/self_improve/r4/checkpoint_archive/seed_2718/fixed/stage_4/attempt_1/checkpoints/global_step_60/actor/lora_adapter/adapter_model.safetensors",
+   "sha256": "53d0f782a9ecf9b3ce47c692599128fec5f737540c20918fa1284ed31d5257a8"
+  },
+  {
+   "archived_at": "not archived: byte-identical to Qwen/Qwen3-4B@1cfa9a7 merges.txt (verified 2026-10-01)",
+   "bytes": 1671853,
+   "path": "artifacts/self_improve/r4/checkpoint_archive/seed_2718/fixed/stage_5/attempt_1/checkpoints/global_step_70/actor/huggingface/merges.txt",
+   "sha256": "8831e4f1a044471340f7c0a83d7bd71306a5b867e95fd870f74d0c5308a904d5"
+  },
+  {
+   "archived_at": "not archived: byte-identical to Qwen/Qwen3-4B@1cfa9a7 tokenizer.json (verified 2026-10-01)",
+   "bytes": 11422654,
+   "path": "artifacts/self_improve/r4/checkpoint_archive/seed_2718/fixed/stage_5/attempt_1/checkpoints/global_step_70/actor/huggingface/tokenizer.json",
+   "sha256": "aeb13307a71acd8fe81861d94ad54ab689df773318809eed3cbe794b4492dae4"
+  },
+  {
+   "archived_at": "not archived: byte-identical to Qwen/Qwen3-4B@1cfa9a7 vocab.json (verified 2026-10-01)",
+   "bytes": 2776833,
+   "path": "artifacts/self_improve/r4/checkpoint_archive/seed_2718/fixed/stage_5/attempt_1/checkpoints/global_step_70/actor/huggingface/vocab.json",
+   "sha256": "ca10d7e9fb3ed18575dd1e277a2579c16d108e32f27439684afa0e10b1440910"
+  },
+  {
+   "archived_at": "not archived: superseded R4 intermediate stage checkpoint",
+   "bytes": 132187856,
+   "path": "artifacts/self_improve/r4/checkpoint_archive/seed_2718/fixed/stage_5/attempt_1/checkpoints/global_step_70/actor/lora_adapter/adapter_model.safetensors",
+   "sha256": "46017e373a0fd7d35dbc657dbe0ef66f85f78fd1d80842e5a643aa9a91f071be"
+  },
+  {
+   "archived_at": "not archived: byte-identical to Qwen/Qwen3-4B@1cfa9a7 merges.txt (verified 2026-10-01)",
+   "bytes": 1671853,
+   "path": "artifacts/self_improve/r4/checkpoint_archive/seed_2718/fixed/stage_6/attempt_1/checkpoints/global_step_80/actor/huggingface/merges.txt",
+   "sha256": "8831e4f1a044471340f7c0a83d7bd71306a5b867e95fd870f74d0c5308a904d5"
+  },
+  {
+   "archived_at": "not archived: byte-identical to Qwen/Qwen3-4B@1cfa9a7 tokenizer.json (verified 2026-10-01)",
+   "bytes": 11422654,
+   "path": "artifacts/self_improve/r4/checkpoint_archive/seed_2718/fixed/stage_6/attempt_1/checkpoints/global_step_80/actor/huggingface/tokenizer.json",
+   "sha256": "aeb13307a71acd8fe81861d94ad54ab689df773318809eed3cbe794b4492dae4"
+  },
+  {
+   "archived_at": "not archived: byte-identical to Qwen/Qwen3-4B@1cfa9a7 vocab.json (verified 2026-10-01)",
+   "bytes": 2776833,
+   "path": "artifacts/self_improve/r4/checkpoint_archive/seed_2718/fixed/stage_6/attempt_1/checkpoints/global_step_80/actor/huggingface/vocab.json",
+   "sha256": "ca10d7e9fb3ed18575dd1e277a2579c16d108e32f27439684afa0e10b1440910"
+  },
+  {
+   "archived_at": "huggingface:PrestoOverture/octorl-qwen3-4b-lora-archive/r4_fixed_2718_u80/adapter_model.safetensors",
+   "bytes": 132187856,
+   "path": "artifacts/self_improve/r4/checkpoint_archive/seed_2718/fixed/stage_6/attempt_1/checkpoints/global_step_80/actor/lora_adapter/adapter_model.safetensors",
+   "sha256": "c75d104f2a64275703898f14a2cf533fbb5cd4d3bcfa73c6c38641dffd66f8ad"
+  },
+  {
+   "archived_at": "not archived: R4 optimizer state (superseded run)",
+   "bytes": 264906940,
+   "path": "artifacts/self_improve/r4/checkpoint_archive/seed_2718/fixed/stage_6/attempt_1/checkpoints/global_step_80/actor/optim_world_size_1_rank_0.pt",
+   "sha256": "80b368cfdb8323df91cf115446877274ba14b28e5fcffa02bb38aa51c81a18eb"
+  },
+  {
+   "archived_at": "not archived: byte-identical to Qwen/Qwen3-4B@1cfa9a7 merges.txt (verified 2026-10-01)",
+   "bytes": 1671853,
+   "path": "artifacts/self_improve/r4/checkpoint_archive/seed_2718/warmup/checkpoints/global_step_20/actor/huggingface/merges.txt",
+   "sha256": "8831e4f1a044471340f7c0a83d7bd71306a5b867e95fd870f74d0c5308a904d5"
+  },
+  {
+   "archived_at": "not archived: byte-identical to Qwen/Qwen3-4B@1cfa9a7 tokenizer.json (verified 2026-10-01)",
+   "bytes": 11422654,
+   "path": "artifacts/self_improve/r4/checkpoint_archive/seed_2718/warmup/checkpoints/global_step_20/actor/huggingface/tokenizer.json",
+   "sha256": "aeb13307a71acd8fe81861d94ad54ab689df773318809eed3cbe794b4492dae4"
+  },
+  {
+   "archived_at": "not archived: byte-identical to Qwen/Qwen3-4B@1cfa9a7 vocab.json (verified 2026-10-01)",
+   "bytes": 2776833,
+   "path": "artifacts/self_improve/r4/checkpoint_archive/seed_2718/warmup/checkpoints/global_step_20/actor/huggingface/vocab.json",
+   "sha256": "ca10d7e9fb3ed18575dd1e277a2579c16d108e32f27439684afa0e10b1440910"
+  },
+  {
+   "archived_at": "huggingface:PrestoOverture/octorl-qwen3-4b-lora-archive/r4_warmup_2718_u20/adapter_model.safetensors",
+   "bytes": 132187856,
+   "path": "artifacts/self_improve/r4/checkpoint_archive/seed_2718/warmup/checkpoints/global_step_20/actor/lora_adapter/adapter_model.safetensors",
+   "sha256": "d7bb078f73dc2fc9889fc930864fc98e939db08a10b788a85cc030316f181719"
+  },
+  {
+   "archived_at": "not archived: R4 optimizer state (superseded run)",
+   "bytes": 264906428,
+   "path": "artifacts/self_improve/r4/checkpoint_archive/seed_2718/warmup/checkpoints/global_step_20/actor/optim_world_size_1_rank_0.pt",
+   "sha256": "89fc63ca6a86071ae5d7303abce46bf69d16e39b5821fb86d6ea6297fe7f4285"
+  },
+  {
+   "archived_at": "not archived: byte-identical to Qwen/Qwen3-4B@1cfa9a7 merges.txt (verified 2026-10-01)",
+   "bytes": 1671853,
+   "path": "artifacts/self_improve/r4/checkpoint_archive/seed_42/failure_driven/stage_1/attempt_1/checkpoints/global_step_30/actor/huggingface/merges.txt",
+   "sha256": "8831e4f1a044471340f7c0a83d7bd71306a5b867e95fd870f74d0c5308a904d5"
+  },
+  {
+   "archived_at": "not archived: byte-identical to Qwen/Qwen3-4B@1cfa9a7 tokenizer.json (verified 2026-10-01)",
+   "bytes": 11422654,
+   "path": "artifacts/self_improve/r4/checkpoint_archive/seed_42/failure_driven/stage_1/attempt_1/checkpoints/global_step_30/actor/huggingface/tokenizer.json",
+   "sha256": "aeb13307a71acd8fe81861d94ad54ab689df773318809eed3cbe794b4492dae4"
+  },
+  {
+   "archived_at": "not archived: byte-identical to Qwen/Qwen3-4B@1cfa9a7 vocab.json (verified 2026-10-01)",
+   "bytes": 2776833,
+   "path": "artifacts/self_improve/r4/checkpoint_archive/seed_42/failure_driven/stage_1/attempt_1/checkpoints/global_step_30/actor/huggingface/vocab.json",
+   "sha256": "ca10d7e9fb3ed18575dd1e277a2579c16d108e32f27439684afa0e10b1440910"
+  },
+  {
+   "archived_at": "not archived: superseded R4 intermediate stage checkpoint",
+   "bytes": 132187856,
+   "path": "artifacts/self_improve/r4/checkpoint_archive/seed_42/failure_driven/stage_1/attempt_1/checkpoints/global_step_30/actor/lora_adapter/adapter_model.safetensors",
+   "sha256": "4de012de69259716b3313264fd15cb44ca830275a38b997d1a6dc0d44f9c2b7e"
+  },
+  {
+   "archived_at": "not archived: byte-identical to Qwen/Qwen3-4B@1cfa9a7 merges.txt (verified 2026-10-01)",
+   "bytes": 1671853,
+   "path": "artifacts/self_improve/r4/checkpoint_archive/seed_42/failure_driven/stage_2/attempt_1/checkpoints/global_step_40/actor/huggingface/merges.txt",
+   "sha256": "8831e4f1a044471340f7c0a83d7bd71306a5b867e95fd870f74d0c5308a904d5"
+  },
+  {
+   "archived_at": "not archived: byte-identical to Qwen/Qwen3-4B@1cfa9a7 tokenizer.json (verified 2026-10-01)",
+   "bytes": 11422654,
+   "path": "artifacts/self_improve/r4/checkpoint_archive/seed_42/failure_driven/stage_2/attempt_1/checkpoints/global_step_40/actor/huggingface/tokenizer.json",
+   "sha256": "aeb13307a71acd8fe81861d94ad54ab689df773318809eed3cbe794b4492dae4"
+  },
+  {
+   "archived_at": "not archived: byte-identical to Qwen/Qwen3-4B@1cfa9a7 vocab.json (verified 2026-10-01)",
+   "bytes": 2776833,
+   "path": "artifacts/self_improve/r4/checkpoint_archive/seed_42/failure_driven/stage_2/attempt_1/checkpoints/global_step_40/actor/huggingface/vocab.json",
+   "sha256": "ca10d7e9fb3ed18575dd1e277a2579c16d108e32f27439684afa0e10b1440910"
+  },
+  {
+   "archived_at": "not archived: superseded R4 intermediate stage checkpoint",
+   "bytes": 132187856,
+   "path": "artifacts/self_improve/r4/checkpoint_archive/seed_42/failure_driven/stage_2/attempt_1/checkpoints/global_step_40/actor/lora_adapter/adapter_model.safetensors",
+   "sha256": "e20d86fc66795d89cc7ed8881ebfee59905ce62165d9698cb0cf5d99e391fda7"
+  },
+  {
+   "archived_at": "not archived: byte-identical to Qwen/Qwen3-4B@1cfa9a7 merges.txt (verified 2026-10-01)",
+   "bytes": 1671853,
+   "path": "artifacts/self_improve/r4/checkpoint_archive/seed_42/failure_driven/stage_3/attempt_1/checkpoints/global_step_50/actor/huggingface/merges.txt",
+   "sha256": "8831e4f1a044471340f7c0a83d7bd71306a5b867e95fd870f74d0c5308a904d5"
+  },
+  {
+   "archived_at": "not archived: byte-identical to Qwen/Qwen3-4B@1cfa9a7 tokenizer.json (verified 2026-10-01)",
+   "bytes": 11422654,
+   "path": "artifacts/self_improve/r4/checkpoint_archive/seed_42/failure_driven/stage_3/attempt_1/checkpoints/global_step_50/actor/huggingface/tokenizer.json",
+   "sha256": "aeb13307a71acd8fe81861d94ad54ab689df773318809eed3cbe794b4492dae4"
+  },
+  {
+   "archived_at": "not archived: byte-identical to Qwen/Qwen3-4B@1cfa9a7 vocab.json (verified 2026-10-01)",
+   "bytes": 2776833,
+   "path": "artifacts/self_improve/r4/checkpoint_archive/seed_42/failure_driven/stage_3/attempt_1/checkpoints/global_step_50/actor/huggingface/vocab.json",
+   "sha256": "ca10d7e9fb3ed18575dd1e277a2579c16d108e32f27439684afa0e10b1440910"
+  },
+  {
+   "archived_at": "not archived: superseded R4 intermediate stage checkpoint",
+   "bytes": 132187856,
+   "path": "artifacts/self_improve/r4/checkpoint_archive/seed_42/failure_driven/stage_3/attempt_1/checkpoints/global_step_50/actor/lora_adapter/adapter_model.safetensors",
+   "sha256": "b0859b6b78173beaf24d83d30d475c27026d0a5ce555a117e6fd0635cc04c8f1"
+  },
+  {
+   "archived_at": "not archived: byte-identical to Qwen/Qwen3-4B@1cfa9a7 merges.txt (verified 2026-10-01)",
+   "bytes": 1671853,
+   "path": "artifacts/self_improve/r4/checkpoint_archive/seed_42/failure_driven/stage_4/attempt_1/checkpoints/global_step_60/actor/huggingface/merges.txt",
+   "sha256": "8831e4f1a044471340f7c0a83d7bd71306a5b867e95fd870f74d0c5308a904d5"
+  },
+  {
+   "archived_at": "not archived: byte-identical to Qwen/Qwen3-4B@1cfa9a7 tokenizer.json (verified 2026-10-01)",
+   "bytes": 11422654,
+   "path": "artifacts/self_improve/r4/checkpoint_archive/seed_42/failure_driven/stage_4/attempt_1/checkpoints/global_step_60/actor/huggingface/tokenizer.json",
+   "sha256": "aeb13307a71acd8fe81861d94ad54ab689df773318809eed3cbe794b4492dae4"
+  },
+  {
+   "archived_at": "not archived: byte-identical to Qwen/Qwen3-4B@1cfa9a7 vocab.json (verified 2026-10-01)",
+   "bytes": 2776833,
+   "path": "artifacts/self_improve/r4/checkpoint_archive/seed_42/failure_driven/stage_4/attempt_1/checkpoints/global_step_60/actor/huggingface/vocab.json",
+   "sha256": "ca10d7e9fb3ed18575dd1e277a2579c16d108e32f27439684afa0e10b1440910"
+  },
+  {
+   "archived_at": "not archived: superseded R4 intermediate stage checkpoint",
+   "bytes": 132187856,
+   "path": "artifacts/self_improve/r4/checkpoint_archive/seed_42/failure_driven/stage_4/attempt_1/checkpoints/global_step_60/actor/lora_adapter/adapter_model.safetensors",
+   "sha256": "5f37f5f2153b11dae8c62e7c41a390422caa64c96f65a3b3d63583dbc7c8a0af"
+  },
+  {
+   "archived_at": "not archived: byte-identical to Qwen/Qwen3-4B@1cfa9a7 merges.txt (verified 2026-10-01)",
+   "bytes": 1671853,
+   "path": "artifacts/self_improve/r4/checkpoint_archive/seed_42/failure_driven/stage_5/attempt_1/checkpoints/global_step_70/actor/huggingface/merges.txt",
+   "sha256": "8831e4f1a044471340f7c0a83d7bd71306a5b867e95fd870f74d0c5308a904d5"
+  },
+  {
+   "archived_at": "not archived: byte-identical to Qwen/Qwen3-4B@1cfa9a7 tokenizer.json (verified 2026-10-01)",
+   "bytes": 11422654,
+   "path": "artifacts/self_improve/r4/checkpoint_archive/seed_42/failure_driven/stage_5/attempt_1/checkpoints/global_step_70/actor/huggingface/tokenizer.json",
+   "sha256": "aeb13307a71acd8fe81861d94ad54ab689df773318809eed3cbe794b4492dae4"
+  },
+  {
+   "archived_at": "not archived: byte-identical to Qwen/Qwen3-4B@1cfa9a7 vocab.json (verified 2026-10-01)",
+   "bytes": 2776833,
+   "path": "artifacts/self_improve/r4/checkpoint_archive/seed_42/failure_driven/stage_5/attempt_1/checkpoints/global_step_70/actor/huggingface/vocab.json",
+   "sha256": "ca10d7e9fb3ed18575dd1e277a2579c16d108e32f27439684afa0e10b1440910"
+  },
+  {
+   "archived_at": "not archived: superseded R4 intermediate stage checkpoint",
+   "bytes": 132187856,
+   "path": "artifacts/self_improve/r4/checkpoint_archive/seed_42/failure_driven/stage_5/attempt_1/checkpoints/global_step_70/actor/lora_adapter/adapter_model.safetensors",
+   "sha256": "b890825683401b09e7509ebe2b1595e6746f7a72904b424d70318d4ea15f0bdd"
+  },
+  {
+   "archived_at": "not archived: byte-identical to Qwen/Qwen3-4B@1cfa9a7 merges.txt (verified 2026-10-01)",
+   "bytes": 1671853,
+   "path": "artifacts/self_improve/r4/checkpoint_archive/seed_42/failure_driven/stage_6/attempt_1/checkpoints/global_step_80/actor/huggingface/merges.txt",
+   "sha256": "8831e4f1a044471340f7c0a83d7bd71306a5b867e95fd870f74d0c5308a904d5"
+  },
+  {
+   "archived_at": "not archived: byte-identical to Qwen/Qwen3-4B@1cfa9a7 tokenizer.json (verified 2026-10-01)",
+   "bytes": 11422654,
+   "path": "artifacts/self_improve/r4/checkpoint_archive/seed_42/failure_driven/stage_6/attempt_1/checkpoints/global_step_80/actor/huggingface/tokenizer.json",
+   "sha256": "aeb13307a71acd8fe81861d94ad54ab689df773318809eed3cbe794b4492dae4"
+  },
+  {
+   "archived_at": "not archived: byte-identical to Qwen/Qwen3-4B@1cfa9a7 vocab.json (verified 2026-10-01)",
+   "bytes": 2776833,
+   "path": "artifacts/self_improve/r4/checkpoint_archive/seed_42/failure_driven/stage_6/attempt_1/checkpoints/global_step_80/actor/huggingface/vocab.json",
+   "sha256": "ca10d7e9fb3ed18575dd1e277a2579c16d108e32f27439684afa0e10b1440910"
+  },
+  {
+   "archived_at": "huggingface:PrestoOverture/octorl-qwen3-4b-lora-archive/r4_failure_driven_42_u80/adapter_model.safetensors",
+   "bytes": 132187856,
+   "path": "artifacts/self_improve/r4/checkpoint_archive/seed_42/failure_driven/stage_6/attempt_1/checkpoints/global_step_80/actor/lora_adapter/adapter_model.safetensors",
+   "sha256": "f0f6f8d19c002c963a6f78b3ef9a617e7f0721b49d8bc4a6badeda9e8c2c076a"
+  },
+  {
+   "archived_at": "not archived: R4 optimizer state (superseded run)",
+   "bytes": 264907132,
+   "path": "artifacts/self_improve/r4/checkpoint_archive/seed_42/failure_driven/stage_6/attempt_1/checkpoints/global_step_80/actor/optim_world_size_1_rank_0.pt",
+   "sha256": "08f800f142182750ade86ed05ed2888df0b0b1aadb28f73ba9338405af1a2374"
+  },
+  {
+   "archived_at": "not archived: byte-identical to Qwen/Qwen3-4B@1cfa9a7 merges.txt (verified 2026-10-01)",
+   "bytes": 1671853,
+   "path": "artifacts/self_improve/r4/checkpoint_archive/seed_42/fixed/stage_1/attempt_1/checkpoints/global_step_30/actor/huggingface/merges.txt",
+   "sha256": "8831e4f1a044471340f7c0a83d7bd71306a5b867e95fd870f74d0c5308a904d5"
+  },
+  {
+   "archived_at": "not archived: byte-identical to Qwen/Qwen3-4B@1cfa9a7 tokenizer.json (verified 2026-10-01)",
+   "bytes": 11422654,
+   "path": "artifacts/self_improve/r4/checkpoint_archive/seed_42/fixed/stage_1/attempt_1/checkpoints/global_step_30/actor/huggingface/tokenizer.json",
+   "sha256": "aeb13307a71acd8fe81861d94ad54ab689df773318809eed3cbe794b4492dae4"
+  },
+  {
+   "archived_at": "not archived: byte-identical to Qwen/Qwen3-4B@1cfa9a7 vocab.json (verified 2026-10-01)",
+   "bytes": 2776833,
+   "path": "artifacts/self_improve/r4/checkpoint_archive/seed_42/fixed/stage_1/attempt_1/checkpoints/global_step_30/actor/huggingface/vocab.json",
+   "sha256": "ca10d7e9fb3ed18575dd1e277a2579c16d108e32f27439684afa0e10b1440910"
+  },
+  {
+   "archived_at": "not archived: superseded R4 intermediate stage checkpoint",
+   "bytes": 132187856,
+   "path": "artifacts/self_improve/r4/checkpoint_archive/seed_42/fixed/stage_1/attempt_1/checkpoints/global_step_30/actor/lora_adapter/adapter_model.safetensors",
+   "sha256": "9eccaf02269277ef16f036ecb8f15a66326385a5f9328090e4a33cf260f175ae"
+  },
+  {
+   "archived_at": "not archived: byte-identical to Qwen/Qwen3-4B@1cfa9a7 merges.txt (verified 2026-10-01)",
+   "bytes": 1671853,
+   "path": "artifacts/self_improve/r4/checkpoint_archive/seed_42/fixed/stage_2/attempt_1/checkpoints/global_step_40/actor/huggingface/merges.txt",
+   "sha256": "8831e4f1a044471340f7c0a83d7bd71306a5b867e95fd870f74d0c5308a904d5"
+  },
+  {
+   "archived_at": "not archived: byte-identical to Qwen/Qwen3-4B@1cfa9a7 tokenizer.json (verified 2026-10-01)",
+   "bytes": 11422654,
+   "path": "artifacts/self_improve/r4/checkpoint_archive/seed_42/fixed/stage_2/attempt_1/checkpoints/global_step_40/actor/huggingface/tokenizer.json",
+   "sha256": "aeb13307a71acd8fe81861d94ad54ab689df773318809eed3cbe794b4492dae4"
+  },
+  {
+   "archived_at": "not archived: byte-identical to Qwen/Qwen3-4B@1cfa9a7 vocab.json (verified 2026-10-01)",
+   "bytes": 2776833,
+   "path": "artifacts/self_improve/r4/checkpoint_archive/seed_42/fixed/stage_2/attempt_1/checkpoints/global_step_40/actor/huggingface/vocab.json",
+   "sha256": "ca10d7e9fb3ed18575dd1e277a2579c16d108e32f27439684afa0e10b1440910"
+  },
+  {
+   "archived_at": "not archived: superseded R4 intermediate stage checkpoint",
+   "bytes": 132187856,
+   "path": "artifacts/self_improve/r4/checkpoint_archive/seed_42/fixed/stage_2/attempt_1/checkpoints/global_step_40/actor/lora_adapter/adapter_model.safetensors",
+   "sha256": "1fb4cc75022e413a850b08493ca4fb0368951f515070d1c453bfd56e051195be"
+  },
+  {
+   "archived_at": "not archived: byte-identical to Qwen/Qwen3-4B@1cfa9a7 merges.txt (verified 2026-10-01)",
+   "bytes": 1671853,
+   "path": "artifacts/self_improve/r4/checkpoint_archive/seed_42/fixed/stage_3/attempt_1/checkpoints/global_step_50/actor/huggingface/merges.txt",
+   "sha256": "8831e4f1a044471340f7c0a83d7bd71306a5b867e95fd870f74d0c5308a904d5"
+  },
+  {
+   "archived_at": "not archived: byte-identical to Qwen/Qwen3-4B@1cfa9a7 tokenizer.json (verified 2026-10-01)",
+   "bytes": 11422654,
+   "path": "artifacts/self_improve/r4/checkpoint_archive/seed_42/fixed/stage_3/attempt_1/checkpoints/global_step_50/actor/huggingface/tokenizer.json",
+   "sha256": "aeb13307a71acd8fe81861d94ad54ab689df773318809eed3cbe794b4492dae4"
+  },
+  {
+   "archived_at": "not archived: byte-identical to Qwen/Qwen3-4B@1cfa9a7 vocab.json (verified 2026-10-01)",
+   "bytes": 2776833,
+   "path": "artifacts/self_improve/r4/checkpoint_archive/seed_42/fixed/stage_3/attempt_1/checkpoints/global_step_50/actor/huggingface/vocab.json",
+   "sha256": "ca10d7e9fb3ed18575dd1e277a2579c16d108e32f27439684afa0e10b1440910"
+  },
+  {
+   "archived_at": "not archived: superseded R4 intermediate stage checkpoint",
+   "bytes": 132187856,
+   "path": "artifacts/self_improve/r4/checkpoint_archive/seed_42/fixed/stage_3/attempt_1/checkpoints/global_step_50/actor/lora_adapter/adapter_model.safetensors",
+   "sha256": "ef02d486db0d2c9f433d4292c47ebf41ad04a582ae0c81d8931ba06e148dc066"
+  },
+  {
+   "archived_at": "not archived: byte-identical to Qwen/Qwen3-4B@1cfa9a7 merges.txt (verified 2026-10-01)",
+   "bytes": 1671853,
+   "path": "artifacts/self_improve/r4/checkpoint_archive/seed_42/fixed/stage_4/attempt_1/checkpoints/global_step_60/actor/huggingface/merges.txt",
+   "sha256": "8831e4f1a044471340f7c0a83d7bd71306a5b867e95fd870f74d0c5308a904d5"
+  },
+  {
+   "archived_at": "not archived: byte-identical to Qwen/Qwen3-4B@1cfa9a7 tokenizer.json (verified 2026-10-01)",
+   "bytes": 11422654,
+   "path": "artifacts/self_improve/r4/checkpoint_archive/seed_42/fixed/stage_4/attempt_1/checkpoints/global_step_60/actor/huggingface/tokenizer.json",
+   "sha256": "aeb13307a71acd8fe81861d94ad54ab689df773318809eed3cbe794b4492dae4"
+  },
+  {
+   "archived_at": "not archived: byte-identical to Qwen/Qwen3-4B@1cfa9a7 vocab.json (verified 2026-10-01)",
+   "bytes": 2776833,
+   "path": "artifacts/self_improve/r4/checkpoint_archive/seed_42/fixed/stage_4/attempt_1/checkpoints/global_step_60/actor/huggingface/vocab.json",
+   "sha256": "ca10d7e9fb3ed18575dd1e277a2579c16d108e32f27439684afa0e10b1440910"
+  },
+  {
+   "archived_at": "not archived: superseded R4 intermediate stage checkpoint",
+   "bytes": 132187856,
+   "path": "artifacts/self_improve/r4/checkpoint_archive/seed_42/fixed/stage_4/attempt_1/checkpoints/global_step_60/actor/lora_adapter/adapter_model.safetensors",
+   "sha256": "2d3f01c031dfb687e1b77652fd59920258f09afd29024e45ee9fba2ec9c794a2"
+  },
+  {
+   "archived_at": "not archived: byte-identical to Qwen/Qwen3-4B@1cfa9a7 merges.txt (verified 2026-10-01)",
+   "bytes": 1671853,
+   "path": "artifacts/self_improve/r4/checkpoint_archive/seed_42/fixed/stage_5/attempt_1/checkpoints/global_step_70/actor/huggingface/merges.txt",
+   "sha256": "8831e4f1a044471340f7c0a83d7bd71306a5b867e95fd870f74d0c5308a904d5"
+  },
+  {
+   "archived_at": "not archived: byte-identical to Qwen/Qwen3-4B@1cfa9a7 tokenizer.json (verified 2026-10-01)",
+   "bytes": 11422654,
+   "path": "artifacts/self_improve/r4/checkpoint_archive/seed_42/fixed/stage_5/attempt_1/checkpoints/global_step_70/actor/huggingface/tokenizer.json",
+   "sha256": "aeb13307a71acd8fe81861d94ad54ab689df773318809eed3cbe794b4492dae4"
+  },
+  {
+   "archived_at": "not archived: byte-identical to Qwen/Qwen3-4B@1cfa9a7 vocab.json (verified 2026-10-01)",
+   "bytes": 2776833,
+   "path": "artifacts/self_improve/r4/checkpoint_archive/seed_42/fixed/stage_5/attempt_1/checkpoints/global_step_70/actor/huggingface/vocab.json",
+   "sha256": "ca10d7e9fb3ed18575dd1e277a2579c16d108e32f27439684afa0e10b1440910"
+  },
+  {
+   "archived_at": "not archived: superseded R4 intermediate stage checkpoint",
+   "bytes": 132187856,
+   "path": "artifacts/self_improve/r4/checkpoint_archive/seed_42/fixed/stage_5/attempt_1/checkpoints/global_step_70/actor/lora_adapter/adapter_model.safetensors",
+   "sha256": "500de0d3f56fe4aab46023e5885a241a789d838a855bcc5191897c5a111b994e"
+  },
+  {
+   "archived_at": "not archived: byte-identical to Qwen/Qwen3-4B@1cfa9a7 merges.txt (verified 2026-10-01)",
+   "bytes": 1671853,
+   "path": "artifacts/self_improve/r4/checkpoint_archive/seed_42/fixed/stage_6/attempt_1/checkpoints/global_step_80/actor/huggingface/merges.txt",
+   "sha256": "8831e4f1a044471340f7c0a83d7bd71306a5b867e95fd870f74d0c5308a904d5"
+  },
+  {
+   "archived_at": "not archived: byte-identical to Qwen/Qwen3-4B@1cfa9a7 tokenizer.json (verified 2026-10-01)",
+   "bytes": 11422654,
+   "path": "artifacts/self_improve/r4/checkpoint_archive/seed_42/fixed/stage_6/attempt_1/checkpoints/global_step_80/actor/huggingface/tokenizer.json",
+   "sha256": "aeb13307a71acd8fe81861d94ad54ab689df773318809eed3cbe794b4492dae4"
+  },
+  {
+   "archived_at": "not archived: byte-identical to Qwen/Qwen3-4B@1cfa9a7 vocab.json (verified 2026-10-01)",
+   "bytes": 2776833,
+   "path": "artifacts/self_improve/r4/checkpoint_archive/seed_42/fixed/stage_6/attempt_1/checkpoints/global_step_80/actor/huggingface/vocab.json",
+   "sha256": "ca10d7e9fb3ed18575dd1e277a2579c16d108e32f27439684afa0e10b1440910"
+  },
+  {
+   "archived_at": "huggingface:PrestoOverture/octorl-qwen3-4b-lora-archive/r4_fixed_42_u80/adapter_model.safetensors",
+   "bytes": 132187856,
+   "path": "artifacts/self_improve/r4/checkpoint_archive/seed_42/fixed/stage_6/attempt_1/checkpoints/global_step_80/actor/lora_adapter/adapter_model.safetensors",
+   "sha256": "cd52e7a3c154876c390a2ac36927c24ddd0d71509431d4b1bcb9a0d82b72626e"
+  },
+  {
+   "archived_at": "not archived: R4 optimizer state (superseded run)",
+   "bytes": 264907132,
+   "path": "artifacts/self_improve/r4/checkpoint_archive/seed_42/fixed/stage_6/attempt_1/checkpoints/global_step_80/actor/optim_world_size_1_rank_0.pt",
+   "sha256": "f5de03cd65bb3f1e30c4e47ced21a0517ce943d26b3bafececf05ffa247e8302"
+  },
+  {
+   "archived_at": "not archived: byte-identical to Qwen/Qwen3-4B@1cfa9a7 merges.txt (verified 2026-10-01)",
+   "bytes": 1671853,
+   "path": "artifacts/self_improve/r4/checkpoint_archive/validation/seed_137/fixed/stage_1/attempt_1/checkpoints/global_step_20/actor/huggingface/merges.txt",
+   "sha256": "8831e4f1a044471340f7c0a83d7bd71306a5b867e95fd870f74d0c5308a904d5"
+  },
+  {
+   "archived_at": "not archived: byte-identical to Qwen/Qwen3-4B@1cfa9a7 tokenizer.json (verified 2026-10-01)",
+   "bytes": 11422654,
+   "path": "artifacts/self_improve/r4/checkpoint_archive/validation/seed_137/fixed/stage_1/attempt_1/checkpoints/global_step_20/actor/huggingface/tokenizer.json",
+   "sha256": "aeb13307a71acd8fe81861d94ad54ab689df773318809eed3cbe794b4492dae4"
+  },
+  {
+   "archived_at": "not archived: byte-identical to Qwen/Qwen3-4B@1cfa9a7 vocab.json (verified 2026-10-01)",
+   "bytes": 2776833,
+   "path": "artifacts/self_improve/r4/checkpoint_archive/validation/seed_137/fixed/stage_1/attempt_1/checkpoints/global_step_20/actor/huggingface/vocab.json",
+   "sha256": "ca10d7e9fb3ed18575dd1e277a2579c16d108e32f27439684afa0e10b1440910"
+  },
+  {
+   "archived_at": "huggingface:PrestoOverture/octorl-qwen3-4b-lora-archive/r3c_137_u20/adapter_model.safetensors",
+   "bytes": 132187856,
+   "path": "artifacts/self_improve/r4/checkpoint_archive/validation/seed_137/fixed/stage_1/attempt_1/checkpoints/global_step_20/actor/lora_adapter/adapter_model.safetensors",
+   "sha256": "e7d68fd875e46487187d14e8554e749045145b744b3c23904243e9c577f7d316"
+  },
+  {
+   "archived_at": "not archived: R4 optimizer state (superseded run)",
+   "bytes": 264907132,
+   "path": "artifacts/self_improve/r4/checkpoint_archive/validation/seed_137/fixed/stage_1/attempt_1/checkpoints/global_step_20/actor/optim_world_size_1_rank_0.pt",
+   "sha256": "6fa2050d25a2cd265c25079ef46b5a01dff978c95ca3f1b41ed263d9d7ef717b"
+  },
+  {
+   "archived_at": "not archived: byte-identical to Qwen/Qwen3-4B@1cfa9a7 merges.txt (verified 2026-10-01)",
+   "bytes": 1671853,
+   "path": "artifacts/self_improve/r4/checkpoint_archive/validation/seed_42/fixed/stage_1/attempt_2/checkpoints/global_step_20/actor/huggingface/merges.txt",
+   "sha256": "8831e4f1a044471340f7c0a83d7bd71306a5b867e95fd870f74d0c5308a904d5"
+  },
+  {
+   "archived_at": "not archived: byte-identical to Qwen/Qwen3-4B@1cfa9a7 tokenizer.json (verified 2026-10-01)",
+   "bytes": 11422654,
+   "path": "artifacts/self_improve/r4/checkpoint_archive/validation/seed_42/fixed/stage_1/attempt_2/checkpoints/global_step_20/actor/huggingface/tokenizer.json",
+   "sha256": "aeb13307a71acd8fe81861d94ad54ab689df773318809eed3cbe794b4492dae4"
+  },
+  {
+   "archived_at": "not archived: byte-identical to Qwen/Qwen3-4B@1cfa9a7 vocab.json (verified 2026-10-01)",
+   "bytes": 2776833,
+   "path": "artifacts/self_improve/r4/checkpoint_archive/validation/seed_42/fixed/stage_1/attempt_2/checkpoints/global_step_20/actor/huggingface/vocab.json",
+   "sha256": "ca10d7e9fb3ed18575dd1e277a2579c16d108e32f27439684afa0e10b1440910"
+  },
+  {
+   "archived_at": "huggingface:PrestoOverture/octorl-qwen3-4b-lora-archive/r3c_42_u20/adapter_model.safetensors",
+   "bytes": 132187856,
+   "path": "artifacts/self_improve/r4/checkpoint_archive/validation/seed_42/fixed/stage_1/attempt_2/checkpoints/global_step_20/actor/lora_adapter/adapter_model.safetensors",
+   "sha256": "f7af949bee5feb930b589bbeeea277ae3ecbf4a3cc5a8078e8b89ca21ee25262"
+  },
+  {
+   "archived_at": "not archived: R4 optimizer state (superseded run)",
+   "bytes": 264907132,
+   "path": "artifacts/self_improve/r4/checkpoint_archive/validation/seed_42/fixed/stage_1/attempt_2/checkpoints/global_step_20/actor/optim_world_size_1_rank_0.pt",
+   "sha256": "3178f988d58232407c42d43ba7913f33733781014815e4070d0697110ff1e996"
+  },
+  {
+   "archived_at": "not archived: byte-identical to Qwen/Qwen3-4B@1cfa9a7 merges.txt (verified 2026-10-01)",
+   "bytes": 1671853,
+   "path": "artifacts/self_improve/r4/checkpoint_archive/validation/seed_42/fixed/stage_1/attempt_3/checkpoints/global_step_20/actor/huggingface/merges.txt",
+   "sha256": "8831e4f1a044471340f7c0a83d7bd71306a5b867e95fd870f74d0c5308a904d5"
+  },
+  {
+   "archived_at": "not archived: byte-identical to Qwen/Qwen3-4B@1cfa9a7 tokenizer.json (verified 2026-10-01)",
+   "bytes": 11422654,
+   "path": "artifacts/self_improve/r4/checkpoint_archive/validation/seed_42/fixed/stage_1/attempt_3/checkpoints/global_step_20/actor/huggingface/tokenizer.json",
+   "sha256": "aeb13307a71acd8fe81861d94ad54ab689df773318809eed3cbe794b4492dae4"
+  },
+  {
+   "archived_at": "not archived: byte-identical to Qwen/Qwen3-4B@1cfa9a7 vocab.json (verified 2026-10-01)",
+   "bytes": 2776833,
+   "path": "artifacts/self_improve/r4/checkpoint_archive/validation/seed_42/fixed/stage_1/attempt_3/checkpoints/global_step_20/actor/huggingface/vocab.json",
+   "sha256": "ca10d7e9fb3ed18575dd1e277a2579c16d108e32f27439684afa0e10b1440910"
+  },
+  {
+   "archived_at": "huggingface:PrestoOverture/octorl-qwen3-4b-lora-archive/r3c_42_u20/adapter_model.safetensors",
+   "bytes": 132187856,
+   "path": "artifacts/self_improve/r4/checkpoint_archive/validation/seed_42/fixed/stage_1/attempt_3/checkpoints/global_step_20/actor/lora_adapter/adapter_model.safetensors",
+   "sha256": "f7af949bee5feb930b589bbeeea277ae3ecbf4a3cc5a8078e8b89ca21ee25262"
+  },
+  {
+   "archived_at": "not archived: R4 optimizer state (superseded run)",
+   "bytes": 264907132,
+   "path": "artifacts/self_improve/r4/checkpoint_archive/validation/seed_42/fixed/stage_1/attempt_3/checkpoints/global_step_20/actor/optim_world_size_1_rank_0.pt",
+   "sha256": "82a8fa68c8d5e7f804751f80150bc9aa87fe2cd7d7bb027d9cd3d9a945e3d7d0"
+  },
+  {
+   "archived_at": "huggingface:PrestoOverture/octorl-qwen3-4b-lora-archive/r3c_137_u20/adapter_model.safetensors",
+   "bytes": 132187856,
+   "path": "artifacts/self_improve/r5/checkpoints/r3c_137_u20/adapter_model.safetensors",
+   "sha256": "e7d68fd875e46487187d14e8554e749045145b744b3c23904243e9c577f7d316"
+  },
+  {
+   "archived_at": "huggingface:PrestoOverture/octorl-qwen3-4b-lora-archive/r3c_137_u50/adapter_model.safetensors",
+   "bytes": 132187856,
+   "path": "artifacts/self_improve/r5/checkpoints/r3c_137_u50/adapter_model.safetensors",
+   "sha256": "870731351f5e420011dbbfd0b22477025d09b916f2c374fb2b5f131fdc4a7bb8"
+  },
+  {
+   "archived_at": "huggingface:PrestoOverture/octorl-qwen3-4b-lora-archive/r3c_137_u80/adapter_model.safetensors",
+   "bytes": 132187856,
+   "path": "artifacts/self_improve/r5/checkpoints/r3c_137_u80/adapter_model.safetensors",
+   "sha256": "1b39b3d5584914d85a21baa476f8e9cc2123bb3142d47250237f650b268be751"
+  },
+  {
+   "archived_at": "huggingface:PrestoOverture/octorl-qwen3-4b-lora-archive/r3c_42_u20/adapter_model.safetensors",
+   "bytes": 132187856,
+   "path": "artifacts/self_improve/r5/checkpoints/r3c_42_u20/adapter_model.safetensors",
+   "sha256": "f7af949bee5feb930b589bbeeea277ae3ecbf4a3cc5a8078e8b89ca21ee25262"
+  },
+  {
+   "archived_at": "huggingface:PrestoOverture/octorl-qwen3-4b-lora-archive/r3c_42_u50/adapter_model.safetensors",
+   "bytes": 132187856,
+   "path": "artifacts/self_improve/r5/checkpoints/r3c_42_u50/adapter_model.safetensors",
+   "sha256": "8c46174265bdbc741aa96857f460fd8e9a0bb716dd89d06bc148d2a178779865"
+  },
+  {
+   "archived_at": "huggingface:PrestoOverture/octorl-qwen3-4b-lora-archive/r3c_42_u80/adapter_model.safetensors",
+   "bytes": 132187856,
+   "path": "artifacts/self_improve/r5/checkpoints/r3c_42_u80/adapter_model.safetensors",
+   "sha256": "78fab16f387539028971a9db5b6485a9308025dda5af3b1cd755dd02f329acff"
+  },
+  {
+   "archived_at": "huggingface:PrestoOverture/octorl-qwen3-4b-lora-archive/r4_failure_driven_137_u80/adapter_model.safetensors",
+   "bytes": 132187856,
+   "path": "artifacts/self_improve/r5/checkpoints/r4_failure_driven_137_u80/adapter_model.safetensors",
+   "sha256": "6fedd36a8b4cba4ca70383d1bb611751df2e48782ac96fef4d89c11c700b9196"
+  },
+  {
+   "archived_at": "huggingface:PrestoOverture/octorl-qwen3-4b-lora-archive/r4_failure_driven_2718_u80/adapter_model.safetensors",
+   "bytes": 132187856,
+   "path": "artifacts/self_improve/r5/checkpoints/r4_failure_driven_2718_u80/adapter_model.safetensors",
+   "sha256": "cef415bea02048c491709d594c46a7b1a867ca4c8e2880e6b622a6eb3f6c16e7"
+  },
+  {
+   "archived_at": "huggingface:PrestoOverture/octorl-qwen3-4b-lora-archive/r4_failure_driven_42_u80/adapter_model.safetensors",
+   "bytes": 132187856,
+   "path": "artifacts/self_improve/r5/checkpoints/r4_failure_driven_42_u80/adapter_model.safetensors",
+   "sha256": "f0f6f8d19c002c963a6f78b3ef9a617e7f0721b49d8bc4a6badeda9e8c2c076a"
+  },
+  {
+   "archived_at": "huggingface:PrestoOverture/octorl-qwen3-4b-lora-archive/r4_fixed_137_u80/adapter_model.safetensors",
+   "bytes": 132187856,
+   "path": "artifacts/self_improve/r5/checkpoints/r4_fixed_137_u80/adapter_model.safetensors",
+   "sha256": "98d745dde0dd1f12a4e4c90d0bfd169d463c715787c0003507d3a85d06634343"
+  },
+  {
+   "archived_at": "huggingface:PrestoOverture/octorl-qwen3-4b-lora-archive/r4_fixed_2718_u80/adapter_model.safetensors",
+   "bytes": 132187856,
+   "path": "artifacts/self_improve/r5/checkpoints/r4_fixed_2718_u80/adapter_model.safetensors",
+   "sha256": "c75d104f2a64275703898f14a2cf533fbb5cd4d3bcfa73c6c38641dffd66f8ad"
+  },
+  {
+   "archived_at": "huggingface:PrestoOverture/octorl-qwen3-4b-lora-archive/r4_fixed_42_u80/adapter_model.safetensors",
+   "bytes": 132187856,
+   "path": "artifacts/self_improve/r5/checkpoints/r4_fixed_42_u80/adapter_model.safetensors",
+   "sha256": "cd52e7a3c154876c390a2ac36927c24ddd0d71509431d4b1bcb9a0d82b72626e"
+  },
+  {
+   "archived_at": "huggingface:PrestoOverture/octorl-qwen3-4b-lora-archive/r4_warmup_2718_u20/adapter_model.safetensors",
+   "bytes": 132187856,
+   "path": "artifacts/self_improve/r5/checkpoints/r4_warmup_2718_u20/adapter_model.safetensors",
+   "sha256": "d7bb078f73dc2fc9889fc930864fc98e939db08a10b788a85cc030316f181719"
+  },
+  {
+   "archived_at": "huggingface:PrestoOverture/octorl-qwen3-4b-grpo-lora/r4r_failure_driven_137_u80/adapter_model.safetensors",
+   "bytes": 132187856,
+   "path": "artifacts/self_improve/r5/checkpoints/r4r_failure_driven_137_u80/adapter_model.safetensors",
+   "sha256": "0576547a1161331e3300351e09d7b34ca9e2da2a8134c34edc769a43d41facc0"
+  },
+  {
+   "archived_at": "huggingface:PrestoOverture/octorl-qwen3-4b-grpo-lora/r4r_failure_driven_2718_u80/adapter_model.safetensors",
+   "bytes": 132187856,
+   "path": "artifacts/self_improve/r5/checkpoints/r4r_failure_driven_2718_u80/adapter_model.safetensors",
+   "sha256": "6a5f6bb6e8712e76deee804ff54728bafabed9abec0e5bfb5f43c01bb557d8b6"
+  },
+  {
+   "archived_at": "huggingface:PrestoOverture/octorl-qwen3-4b-grpo-lora/r4r_failure_driven_42_u80/adapter_model.safetensors",
+   "bytes": 132187856,
+   "path": "artifacts/self_improve/r5/checkpoints/r4r_failure_driven_42_u80/adapter_model.safetensors",
+   "sha256": "bab5f2aa4a61b41b54ff0c98dfceb5142ad9a225dbf7b9579a8b97df978a3c1c"
+  },
+  {
+   "archived_at": "huggingface:PrestoOverture/octorl-qwen3-4b-grpo-lora/r4r_fixed_137_u80/adapter_model.safetensors",
+   "bytes": 132187856,
+   "path": "artifacts/self_improve/r5/checkpoints/r4r_fixed_137_u80/adapter_model.safetensors",
+   "sha256": "bb04a8706d4fc58f78fbd5e179dfc610ca2d0fa4102c834ffe917e9d6be85201"
+  },
+  {
+   "archived_at": "huggingface:PrestoOverture/octorl-qwen3-4b-grpo-lora/r4r_fixed_2718_u80/adapter_model.safetensors",
+   "bytes": 132187856,
+   "path": "artifacts/self_improve/r5/checkpoints/r4r_fixed_2718_u80/adapter_model.safetensors",
+   "sha256": "ffb5c2656b688a79da48638e2fe6ddd65a5fd6cc65b92c692a98b35c1d4f3551"
+  },
+  {
+   "archived_at": "huggingface:PrestoOverture/octorl-qwen3-4b-grpo-lora/r4r_fixed_42_u80/adapter_model.safetensors",
+   "bytes": 132187856,
+   "path": "artifacts/self_improve/r5/checkpoints/r4r_fixed_42_u80/adapter_model.safetensors",
+   "sha256": "8b123037d5588aad02b56a4b1b4926ea8289574f9d5e3d482345c8b4e1eb3709"
+  },
+  {
+   "archived_at": "huggingface:PrestoOverture/octorl-qwen3-4b-lora-archive/r4r_warmup_2718_u20/adapter_model.safetensors",
+   "bytes": 132187856,
+   "path": "artifacts/self_improve/r5/checkpoints/r4r_warmup_2718_u20/adapter_model.safetensors",
+   "sha256": "2e97026dbb304c052a0a4ad5a1c1fd0e36d98ca81f6e8bcd638a19affededc21"
+  }
+ ],
+ "reason": "local model weights removed after HF release; code, experiment data and reports kept",
+ "removed_by": "moved to ~/.Trash/octorl_models_2026-10-01 (user empties Trash)"
+}
