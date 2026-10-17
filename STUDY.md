@@ -1,11 +1,12 @@
-# OctoRL — full study write-up
+# Adaptive Curriculum RL — full study write-up
 
 Detailed results, design, safeguards and reproduction steps behind the [README](README.md) summary.
+The project was originally called OctoRL; code identifiers, file paths and artifacts keep that name.
 The README's "weak-spot practice" is the **failure-driven** arm here, and "random practice" is the **fixed** arm.
 
 Does practising more on what an agent currently fails at make RL post-training better, when the budget is
 held equal? And can a model that has been trained this way design its own curriculum, as a first RSI-related test?
-OctoRL answers both questions with preregistered, budget-matched experiments. The model is Qwen3-4B, trained with
+This study answers both questions with preregistered, budget-matched experiments. The model is Qwen3-4B, trained with
 GRPO + LoRA on a single RTX 4090, and every result is judged on sealed held-out tests. Negative and null results are
 reported as they came out.
 

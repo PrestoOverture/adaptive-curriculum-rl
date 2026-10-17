@@ -1,4 +1,4 @@
-# OctoRL
+# Adaptive Curriculum RL
 
 [English](README.md) | 中文
 

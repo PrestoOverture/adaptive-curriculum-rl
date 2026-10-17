@@ -1,5 +1,5 @@
 [project]
-name = "octorl"
+name = "adaptive-curriculum-rl"
 version = "0.1.0"
 description = "A difficulty-parameterized repository-repair RL environment for a single 24 GB GPU"
 requires-python = ">=3.11"
@@ -21,7 +21,7 @@ dependencies = [
 ]
 
 [project.urls]
-Repository = "https://github.com/PrestoOverture/octorl"
+Repository = "https://github.com/PrestoOverture/adaptive-curriculum-rl"
 
 [project.optional-dependencies]
 dev = [
