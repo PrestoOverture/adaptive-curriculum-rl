@@ -18,7 +18,7 @@
   自己给自己安排练习内容"，但在训练开始前做的一项预检查表明这个机制根本没起作用，于是及时
   止损，没有去训练一个只会测出噪声的实验。
 - **所有数字都能离线逐字节复现**，直接用仓库里保存的每一次测试输出，不需要 GPU。
-- **训练好的模型权重已公开**在 [Hugging Face](https://huggingface.co/PrestoOverture/octorl-qwen3-4b-grpo-lora)，
+- **训练好的模型权重已公开**在 [Hugging Face](https://huggingface.co/PrestoOverture/adaptive-curriculum-rl-qwen3-4b-grpo-lora)，
   每个文件都附有 sha256 校验值。
 
 ## 实验步骤

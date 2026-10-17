@@ -24,7 +24,7 @@ both groups. The model is Qwen3-4B, trained with GRPO + LoRA on a single RTX 409
   training on something that would only have measured noise.
 - **Every number reproduces offline, byte-for-byte**, from the per-attempt test outputs saved in the repository.
   No GPU needed.
-- **The trained weights are public** on [Hugging Face](https://huggingface.co/PrestoOverture/octorl-qwen3-4b-grpo-lora),
+- **The trained weights are public** on [Hugging Face](https://huggingface.co/PrestoOverture/adaptive-curriculum-rl-qwen3-4b-grpo-lora),
   each file with a sha256 checksum.
 
 ## How the experiment works

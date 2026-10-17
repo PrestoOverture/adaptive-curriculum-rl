@@ -11,14 +11,14 @@ tags:
   - curriculum-learning
 ---
 
-# OctoRL: Qwen3-4B GRPO LoRA adapters (fixed vs. failure-driven curriculum)
+# Adaptive Curriculum RL: Qwen3-4B GRPO LoRA adapters (fixed vs. failure-driven curriculum)
 
 Six LoRA adapters from the preregistered **R4r** experiment of
-[OctoRL](https://github.com/PrestoOverture/octorl). The experiment asks whether practising more on the fault types
+[adaptive-curriculum-rl](https://github.com/PrestoOverture/adaptive-curriculum-rl). The experiment asks whether practising more on the fault types
 an agent currently fails at makes GRPO post-training better than a fixed task distribution under an equal budget.
 
 These are **research artifacts for reproducing a comparison**. They are not general-purpose improved models. They were
-trained and evaluated only on OctoRL's synthetic tool-recovery task: a short multi-turn task in which the agent repairs
+trained and evaluated only on this project's synthetic tool-recovery task: a short multi-turn task in which the agent repairs
 a service configuration with three tools.
 
 ## Adapters
@@ -67,7 +67,7 @@ from peft import PeftModel
 base_id, rev = "Qwen/Qwen3-4B", "1cfa9a7208912126459214e8b04321603b3df60c"
 tokenizer = AutoTokenizer.from_pretrained(base_id, revision=rev)
 base = AutoModelForCausalLM.from_pretrained(base_id, revision=rev, torch_dtype="auto")
-model = PeftModel.from_pretrained(base, "PrestoOverture/octorl-qwen3-4b-grpo-lora",
+model = PeftModel.from_pretrained(base, "PrestoOverture/adaptive-curriculum-rl-qwen3-4b-grpo-lora",
                                   subfolder="r4r_failure_driven_42_u80")
 ```
 
